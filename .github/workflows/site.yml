@@ -38,7 +38,7 @@ jobs:
         - name: Upload Website & blueprint artifact
           uses: actions/upload-pages-artifact@v3
           with:
-            path: Website/_site
+            path: Site/_site
 
         - name: Deploy to GitHub Pages
           id: deployment

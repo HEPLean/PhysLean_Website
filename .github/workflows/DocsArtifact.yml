@@ -30,68 +30,71 @@ jobs:
           run: dot -V
         ##################
         # Remove this section if you don't want docs to be made
-#        - name: Install elan
-#          run: |
-#            set -o pipefail
-#            curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none -y
-#            ~/.elan/bin/lean --version
-#            echo "$HOME/.elan/bin" >> $GITHUB_PATH
-#  
-#        - name: Get Mathlib cache
-#          run: lake -Kenv=dev exe cache get || true
-#  
-#        - name: Build project
-#          run: lake -Kenv=dev build PhysLean
-#  
-#        - name: make TODO list
-#          run : lake exe TODO_to_yml mkFile
-#  
-#        - name: make list of informal proofs and lemmas
-#          run : lake exe informal mkFile mkDot mkHTML
-#  
-#        - name: make stats page
-#          run : lake exe stats mkHTML
-#  
-#        - name: make notes
-#          run : lake exe notes
-#  
-#        - name: Generate svg from dot
-#          run : dot -Tsvg -o ./docs/graph.svg ./docs/InformalDot.dot
-#  
-#        - name: Replace template file with custom
-#          run : cp ./scripts/Template.lean .lake/packages/doc-gen4/DocGen4/Output/Template.lean
-#  
-#        - name: Get doc cache
-#          uses: actions/cache@v3
-#          with:
-#            path: |
-#              .lake/build/doc/Init
-#              .lake/build/doc/DocGen4
-#              .lake/build/doc/Aesop
-#              .lake/build/doc/Lake
-#              .lake/build/doc/Batteries
-#              .lake/build/doc/Lean
-#              .lake/build/doc/Std
-#              .lake/build/doc/Mathlib
-#              .lake/build/doc/declarations
-#              !.lake/build/doc/declarations/declaration-data-PhysLean*
-#            key: MathlibDoc-${{ hashFiles('lake-manifest.json') }}
-#            restore-keys: |
-#              MathlibDoc-
+        - name: Install elan
+          run: |
+            set -o pipefail
+            curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none -y
+            ~/.elan/bin/lean --version
+            echo "$HOME/.elan/bin" >> $GITHUB_PATH
   
-#        - name: Build documentation
-#          run: lake -Kenv=dev build PhysLean:docs
+        - name: Get Mathlib cache
+          run: lake -Kenv=dev exe cache get || true
   
-#        - name: Copy documentation to `docs/docs`
-#          run: |
-#            mv .lake/build/doc docs/docs
+        - name: Build project
+          run: lake -Kenv=dev build PhysLean
+  
+        - name: make TODO list
+          run : lake exe TODO_to_yml mkFile
+  
+        - name: make list of informal proofs and lemmas
+          run : lake exe informal mkFile mkDot mkHTML
+  
+        - name: make stats page
+          run : lake exe stats mkHTML
+  
+        - name: make notes
+          run : lake exe notes
+  
+        - name: Generate svg from dot
+          run : dot -Tsvg -o ./docs/graph.svg ./docs/InformalDot.dot
+  
+        - name: Replace template file with custom
+          run : cp ./scripts/Template.lean .lake/packages/doc-gen4/DocGen4/Output/Template.lean
+  
+        - name: Build documentation
+          run: lake -Kenv=dev build PhysLean:docs
         #End Section
         ##################
+
+        #Moving important files to the
+
+        - name: Create doc-artifact directory
+          run: mkdir -p doc-artifact
         
+        - name : Move the TODO list
+          run: mv docs/TODOList.html doc-artifact/TODO_list.html
+
+        - name : Move the data sets
+          run: mv docs/_data doc-artifact/_data
+        
+        - name : Move the Curated notes 
+          run : mv docs/CuratedNotes doc-artifact/CuratedNotes 
+
+        - name : Move the states file 
+          run : mv docs/Stats.html doc-artifact/Stats.html    
+
+        - name : Move the informal proofs and lemmas
+          run : mv docs/InformalGraph.html doc-artifact/InformalGraph.html
+
+        - name: Copy documentation to `doc-artifact/docs`
+          run: |
+            mv .lake/build/doc doc-artifact/docs
+        
+        # Upload the documentation artifact
         - name: Upload documentation artifact
           uses: actions/upload-artifact@v4
           with:
             name: documentation
-            path: docs/
+            path: doc-artifact/
             retention-days: 90
   

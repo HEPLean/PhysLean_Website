@@ -16,6 +16,7 @@
     <a href= "https://heplean.com">heplean.com</a> for a current version.
   </p>
 </div>
+
 <div class="example-container" style="border: 2px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <div style="text-align: center;">
     <img src="/assets/WicksTheoremScreenShot.png"

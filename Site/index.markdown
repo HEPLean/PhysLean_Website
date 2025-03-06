@@ -8,15 +8,6 @@
 ---
 
 
-
-<div class="warning-container" style="background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin-bottom: 20px; border-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.1);">
-  <h3 style="color: #856404; margin-top: 0;">⚠️ Website Under Development</h3>
-  <p style="color: #856404; margin-bottom: 0;">
-    This website is currently under active development. Please see 
-    <a href= "https://heplean.com">heplean.com</a> for a current version.
-  </p>
-</div>
-
 <div class="example-container" style="border: 2px solid #ddd; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <div style="text-align: center;">
     <img src="/assets/WicksTheoremScreenShot.png"

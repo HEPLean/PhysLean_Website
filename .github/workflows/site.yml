@@ -57,7 +57,11 @@ jobs:
           run: mv doc-artifact/TODO_list.html Site/TODOList.html 
 
         - name : Move the data sets
-          run: mv doc-artifact/_data Site/_data
+          run: |
+            if [ -d "Site/_data" ]; then
+              rm -rf Site/_data
+            fi
+            mv doc-artifact/_data Site/_data
         
         - name : Move the Curated notes 
           run : mv doc-artifact/CuratedNotes Site/CuratedNotes

@@ -2,7 +2,8 @@ on:
   push:
     branches:
       - main
-      - JTS
+  schedule:
+      - cron: '0 4,20 * * *'  # Run every 8 hours
   workflow_dispatch:
 
 name: Build website 

@@ -38,9 +38,9 @@ jobs:
           uses: actions/download-artifact@v4
           with:
             name: documentation
-            path: doc-artifact/ 
-            run-id:  ${{ github.event.workflow_run.id }}
-            github-token: ${{ github.token }}
+            path: Site/doc-artifact/
+            repository: ${{ github.repository }}
+            github-token: ${{ secrets.GITHUB_TOKEN }}
 
         - name: Check of file content.
           run: ls 

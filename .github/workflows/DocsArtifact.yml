@@ -82,6 +82,9 @@ jobs:
 
         - name : Move the states file 
           run : mv docs/Stats.html doc-artifact/Stats.html    
+        
+        - name : Move the informal proofs and lemmas dot file
+          run : mv docs/InformalDot.dot doc-artifact/InformalDot.dot
 
         - name : Move the informal proofs and lemmas
           run : mv docs/InformalGraph.html doc-artifact/InformalGraph.html

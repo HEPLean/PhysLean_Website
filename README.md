@@ -15,6 +15,13 @@ Once jekyll is installed:
 - Run `bundle exec jekyll serve`
 - Open `http://localhost:4000` in your webbrowser.
 
+## Updating depedencies 
+
+```
+cd ./Site 
+rm Gemfile.lock 
+bundle install
+```
 ## PhysLean domain
 
 The PhysLean website is hosted at `https://physlean.com`. This domain is registered via

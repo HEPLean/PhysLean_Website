@@ -42,6 +42,11 @@ Installing `bubblewrap`
 sudo apt-get install bubblewrap
 ```
 
+Installing `elan` 
+```
+curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh
+```
+
 Installing `pm2`
 ```
 npm install pm2@latest -g

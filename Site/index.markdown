@@ -19,15 +19,19 @@
   </div>
 </div>
 
-**PhysLean was  formerly called HepLean**
+**PhysLean was formerly called HepLean**
+
 # 1. Mission of PhysLean
 
-The mission of PhysLean is to digitalize results, meaning definitions, theorems and calculations, from physics into Lean 4 with an initial focus on high energy physics and in a way which is useful to the broad physics community.
+To create a library of digitalized physics results in the theorem prover Lean 4, 
+in a way which is useful to the broad physics community.
 
 
 # 2. Vision of PhysLean
 
-**Statement**: PhysLean aspires to be the definitive formal repository for physics in Lean, akin to Mathlib for mathematics, with both the Lean and physics communities behind it and a potential formal collaboration.
+**Statement**: PhysLean aspires to be the definitive library for physics in Lean, 
+akin to Mathlib for mathematics,
+with both the Lean and physics communities behind it and a potential formal collaboration.
 
 **Detailed Vision**:
 - A comprehensive repository for containing fundamental definitions, theorems, and calculations from physics.

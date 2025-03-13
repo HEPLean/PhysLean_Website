@@ -4,7 +4,7 @@ on:
     workflow_dispatch:       # Allows manual triggering from the GitHub Actions tab
 
   
-name: Build and deploy documentation
+name: Archive site files and documentation from PhysLean
   
   # borrowed from https://github.com/teorth/pfr/blob/master/.github/workflows/push.yml
 permissions:

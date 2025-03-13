@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<h1>TODO list</h1>
+
+This file is created automatically using `TODO ...` commands within PhysLean.
+Feel free to tackle any of the items here.
+
+{% for cat in site.data.TODO.Category %}
+
+<h3>{{ cat.name }} {{ cat.emoji }}</h3>
+
+<details>
+  <summary style="font-size: 0.8em; margin-left: 1em;">Show {{cat.num}} TODO items:</summary>
+
+
+{% for entry in site.data.TODO.TODOItem %}
+  {% if entry.category == cat.name %}
+        <a href="{{ entry.githubLink }}" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            {% if entry.isInformalDef == true %}
+            <p href="#" class="badge badge-primary" style="background-color: rgba(65, 105, 225, 0.1);color: #1e40af;">Informal definition</p>  ({{ entry.name }}) 
+            {% else %}
+            {% if entry.isInformalLemma == true %}
+            <p class="badge badge-primary" style="background-color: rgba(255, 165, 0, 0.1);color: #FF8C00;">Informal Lemma</p>  ({{ entry.name }})
+            {% else %}
+            <p class="badge badge-primary" style="background-color: rgba(0, 128, 128, 0.1);color: #008080;">TODO Item</p>  (file : {{ entry.name }})
+            {% endif %}
+            {% endif %}
+
+            
+        </div>
+        <p>{{ entry.content | markdownify}}</p>
+  </a>
+  {% endif %}
+{% endfor %}
+</details>
+{% endfor %}
+
+

@@ -71,9 +71,6 @@ jobs:
         - name: Create doc-artifact directory
           run: mkdir -p doc-artifact
         
-        - name : Move the TODO list
-          run: mv docs/TODOList.html doc-artifact/TODO_list.html
-
         - name : Move the data sets
           run: mv docs/_data doc-artifact/_data
         

@@ -60,10 +60,7 @@ jobs:
             fi
             mv doc-artifact/_data Site/_data
         
-        - name : Move the Curated notes 
-          run : mv doc-artifact/CuratedNotes Site/CuratedNotes
-
-        - name : Move the states file 
+        - name : Move the stats file 
           run : mv doc-artifact/Stats.html Site/Stats.html   
 
         - name : Move the informal proofs and lemmas dot file

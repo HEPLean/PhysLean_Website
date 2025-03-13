@@ -4,7 +4,7 @@ on:
     workflow_dispatch:       # Allows manual triggering from the GitHub Actions tab
 
   
-name: Build and deploy documentation
+name: Archive site files and documentation from PhysLean
   
   # borrowed from https://github.com/teorth/pfr/blob/master/.github/workflows/push.yml
 permissions:
@@ -52,9 +52,6 @@ jobs:
         - name: make stats page
           run : lake exe stats mkHTML
   
-        - name: make notes
-          run : lake exe notes
-  
         - name: Generate svg from dot
           run : dot -Tsvg -o ./docs/graph.svg ./docs/InformalDot.dot
   
@@ -74,10 +71,7 @@ jobs:
         - name : Move the data sets
           run: mv docs/_data doc-artifact/_data
         
-        - name : Move the Curated notes 
-          run : mv docs/CuratedNotes doc-artifact/CuratedNotes 
-
-        - name : Move the states file 
+        - name : Move the stats file 
           run : mv docs/Stats.html doc-artifact/Stats.html    
         
         - name : Move the informal proofs and lemmas dot file

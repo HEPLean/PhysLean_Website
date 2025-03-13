@@ -53,9 +53,6 @@ jobs:
         ##################
         # Moving files 
         
-        - name : Move the TODO list
-          run: mv doc-artifact/TODO_list.html Site/TODOList.html 
-
         - name : Move the data sets
           run: |
             if [ -d "Site/_data" ]; then

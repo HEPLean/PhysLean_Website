@@ -1,0 +1,1183 @@
+Category:
+
+  - name: "Classical Mechanics"
+    num: 8
+    emoji: "⚙️"
+  - name: "Condensed Matter"
+    num: 0
+    emoji: "🧊"
+  - name: "Cosmology"
+    num: 0
+    emoji: "🌌"
+  - name: "Electromagnetism"
+    num: 1
+    emoji: "⚡"
+  - name: "Mathematics"
+    num: 1
+    emoji: "➗"
+  - name: "Meta"
+    num: 2
+    emoji: "🏛️"
+  - name: "Optics"
+    num: 0
+    emoji: "🔍"
+  - name: "Particles"
+    num: 47
+    emoji: "💥"
+  - name: "QFT"
+    num: 7
+    emoji: "🌊"
+  - name: "Quantum Mechanics"
+    num: 2
+    emoji: "⚛️"
+  - name: "Relativity"
+    num: 32
+    emoji: "⏳"
+  - name: "Statistical Mechanics"
+    num: 0
+    emoji: "🎲"
+  - name: "Thermodynamics"
+    num: 0
+    emoji: "🔥"
+  - name: "Other"
+    num: 0
+    emoji: "❓"
+TODOItem:
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L97
+    line: 97
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    content: |
+      Derive the Euler-Lagraange equation for the classical harmonic oscillator
+        from the lagrangian.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L95
+    line: 95
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    content: |
+      Derive the force from the lagrangian of the classical harmonic oscillator
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L100
+    line: 100
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
+    content: |
+      Include damping into the classical harmonic oscillator.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L288
+    line: 288
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    content: |
+      For the classical harmonic oscillator find the time for which it returns to
+        it's initial position and velocity.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L34
+    line: 34
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    content: |
+      Implement other initial conditions for the harmonic oscillator.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L293
+    line: 293
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    content: |
+      For the classical harmonic oscillator find the velocity when it passes through
+        zero.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L291
+    line: 291
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    content: |
+      For the classical harmonic oscillator find the times for which it passes through zero.
+
+  - file: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L296
+    line: 296
+    isInformalDef: false
+    isInformalLemma: false
+    category: Classical Mechanics
+    name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
+    content: |
+      Show uniqueness of the solution for the classical harmonic oscillator.
+
+  - file: PhysLean.Electromagnetism.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Electromagnetism/Basic.lean#L29
+    line: 29
+    isInformalDef: false
+    isInformalLemma: false
+    category: Electromagnetism
+    name: PhysLean.Electromagnetism.Basic
+    content: |
+      Replace the field strength tensor with a real (rather then complex) Lorentz tensor.
+        Or at the least put the condition that the field strength is real. 
+
+  - file: PhysLean.Mathematics.LinearMaps
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Mathematics/LinearMaps.lean#L17
+    line: 17
+    isInformalDef: false
+    isInformalLemma: false
+    category: Mathematics
+    name: PhysLean.Mathematics.LinearMaps
+    content: |
+      Replace the definitions in this file with Mathlib definitions.
+
+  - file: PhysLean.Meta.AllFilePaths
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Meta/AllFilePaths.lean#L15
+    line: 15
+    isInformalDef: false
+    isInformalLemma: false
+    category: Meta
+    name: PhysLean.Meta.AllFilePaths
+    content: |
+      Make this definition more functional in style. In other words, remove the for loop.
+
+  - file: PhysLean.Meta.TransverseTactics
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Meta/TransverseTactics.lean#L78
+    line: 78
+    isInformalDef: false
+    isInformalLemma: false
+    category: Meta
+    name: PhysLean.Meta.TransverseTactics
+    content: |
+      Find a way to free the environment `env` in `transverseTactics`.
+        This leads to memory problems when using `transverseTactics` directly in loops.
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.GeorgiGlashow.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/GeorgiGlashow/Basic.lean#L20
+    line: 20
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: GeorgiGlashow.GaugeGroupI
+    content: |
+      The gauge group of the Georgi-Glashow model, i.e., `SU(5)`. 
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.GeorgiGlashow.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/GeorgiGlashow/Basic.lean#L24
+    line: 24
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: GeorgiGlashow.inclSM
+    content: |
+      The homomorphism of the Standard Model gauge group into the Georgi-Glashow gauge group, i.e.,
+      the group homomorphism `SU(3) × SU(2) × U(1) → SU(5)` taking `(h, g, α)` to
+      `blockdiag (α ^ 3 g, α ^ (-2) h)`.
+      
+      See page 34 of https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.GeorgiGlashow.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/GeorgiGlashow/Basic.lean#L33
+    line: 33
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: GeorgiGlashow.inclSM_ker
+    content: |
+      The kernel of the map `inclSM` is equal to the subgroup `StandardModel.gaugeGroupℤ₆SubGroup`.
+      
+      See page 34 of https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.GeorgiGlashow.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/GeorgiGlashow/Basic.lean#L40
+    line: 40
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: GeorgiGlashow.embedSMℤ₆
+    content: |
+      The group embedding from `StandardModel.GaugeGroupℤ₆` to `GaugeGroupI` induced by `inclSM` by
+      quotienting by the kernel `inclSM_ker`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L51
+    line: 51
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.gaugeGroupISpinEquiv
+    content: |
+      The equivalence between `GaugeGroupI` and `Spin(6) × Spin(4)`. 
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L25
+    line: 25
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.GaugeGroupI
+    content: |
+      The gauge group of the Pati-Salam model (unquotiented by ℤ₂), i.e., `SU(4) × SU(2) × SU(2)`. 
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L29
+    line: 29
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.inclSM
+    content: |
+      The homomorphism of the Standard Model gauge group into the Pati-Salam gauge group, i.e., the
+      group homomorphism `SU(3) × SU(2) × U(1) → SU(4) × SU(2) × SU(2)` taking `(h, g, α)` to
+      `(blockdiag (α h, α ^ (-3)), g, diag (α ^ 3, α ^(-3))`.
+      
+      See page 54 of https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L38
+    line: 38
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: PatiSalam.inclSM_ker
+    content: |
+      The kernel of the map `inclSM` is equal to the subgroup `StandardModel.gaugeGroupℤ₃SubGroup`.
+      
+      See footnote 10 of https://arxiv.org/pdf/2201.07245
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L55
+    line: 55
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.gaugeGroupℤ₂SubGroup
+    content: |
+      The ℤ₂-subgroup of the un-quotiented gauge group which acts trivially on all particles in the
+      standard model, i.e., the ℤ₂-subgroup of `GaugeGroupI` with the non-trivial element `(-1, -1, -1)`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L63
+    line: 63
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.GaugeGroupℤ₂
+    content: |
+      The gauge group of the Pati-Salam model with a ℤ₂ quotient, i.e., the quotient of `GaugeGroupI`
+      by the ℤ₂-subgroup `gaugeGroupℤ₂SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L45
+    line: 45
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.embedSMℤ₃
+    content: |
+      The group embedding from `StandardModel.GaugeGroupℤ₃` to `GaugeGroupI` induced by `inclSM` by
+      quotienting by the kernel `inclSM_ker`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L71
+    line: 71
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: PatiSalam.sm_ℤ₆_factor_through_gaugeGroupℤ₂SubGroup
+    content: |
+      The group `StandardModel.gaugeGroupℤ₆SubGroup` under the homomorphism `embedSM` factors through
+      the subgroup `gaugeGroupℤ₂SubGroup`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/PatiSalam/Basic.lean#L77
+    line: 77
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: PatiSalam.embedSMℤ₆Toℤ₂
+    content: |
+      The group homomorphism from `StandardModel.GaugeGroupℤ₆` to `GaugeGroupℤ₂` induced by `embedSM`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L41
+    line: 41
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: Spin10Model.inclGeorgiGlashow
+    content: |
+      The inclusion of the Georgi-Glashow gauge group into Spin(10), i.e., the Lie group homomorphism
+      from `SU(n) → Spin(2n)` discussed on page 46 of https://math.ucr.edu/home/baez/guts.pdf for `n = 5`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L47
+    line: 47
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: Spin10Model.inclSMThruGeorgiGlashow
+    content: |
+      The inclusion of the Standard Model gauge group into Spin(10), i.e., the composition of
+      `inclGeorgiGlashow` and `GeorgiGlashow.inclSM`.
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L33
+    line: 33
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: Spin10Model.inclSM
+    content: |
+      The inclusion of the Standard Model gauge group into Spin(10), i.e., the composition of
+      `embedPatiSalam` and `PatiSalam.inclSM`.
+      
+      See page 56 of https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L53
+    line: 53
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: Spin10Model.inclSM_eq_inclSMThruGeorgiGlashow
+    content: |
+      The inclusion `inclSM` is equal to the inclusion `inclSMThruGeorgiGlashow`. 
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L19
+    line: 19
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: Spin10Model.GaugeGroupI
+    content: |
+      The gauge group of the Spin(10) model, i.e., the group `Spin(10)`. 
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/Spin10/Basic.lean#L23
+    line: 23
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: Spin10Model.inclPatiSalam
+    content: |
+      The inclusion of the Pati-Salam gauge group into Spin(10), i.e., the lift of the embedding
+      `SO(6) × SO(4) → SO(10)` to universal covers, giving a homomorphism `Spin(6) × Spin(4) → Spin(10)`.
+      Precomposed with the isomorphism, `PatiSalam.gaugeGroupISpinEquiv`, between `SU(4) × SU(2) × SU(2)`
+      and `Spin(6) × Spin(4)`.
+      
+      See page 56 of https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/TwoHDM/Basic.lean#L148
+    line: 148
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Basic
+    content: |
+      Prove bounded properties of the 2HDM potential.
+        See e.g. https://inspirehep.net/literature/201299 and
+        https://arxiv.org/pdf/hep-ph/0605184.
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.GaugeOrbits
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/TwoHDM/GaugeOrbits.lean#L92
+    line: 92
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: TwoHDM.prodMatrix_to_higgsField
+    content: |
+      Given any smooth map `f` from spacetime to 2-by-2 complex matrices landing on positive
+      semi-definite matrices, there exist smooth Higgs fields `Φ1` and `Φ2` such that `f` is equal to
+      `prodMatrix Φ1 Φ2`.
+      
+      See https://arxiv.org/pdf/hep-ph/0605184
+      
+
+  - file: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.GaugeOrbits
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/BeyondTheStandardModel/TwoHDM/GaugeOrbits.lean#L87
+    line: 87
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: TwoHDM.prodMatrix_invariant
+    content: |
+      The map `prodMatrix` is invariant under the simultaneous action of `gaugeAction` on the two
+      Higgs fields. 
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L111
+    line: 111
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.gaugeGroupI_lie
+    content: |
+      The gauge group `GaugeGroupI` is a Lie group. 
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L119
+    line: 119
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.gaugeBundleI
+    content: |
+      The trivial principal bundle over SpaceTime with structure group `GaugeGroupI`. 
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L29
+    line: 29
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.gaugeGroupℤ₆SubGroup
+    content: |
+      The subgroup of the un-quotiented gauge group which acts trivially on all particles in the
+      standard model, i.e., the ℤ₆-subgroup of `GaugeGroupI` with elements `(α^2 * I₃, α^(-3) * I₂, α)`,
+      where `α` is a sixth complex root of unity.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L15
+    line: 15
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.Basic
+    content: |
+      Redefine the gauge group as a quotient of SU(3) x SU(2) x U(1) by a subgroup of ℤ₆.
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L115
+    line: 115
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.gaugeGroup_lie
+    content: |
+      For every `q` in `GaugeGroupQuot` the group `GaugeGroup q` is a Lie group. 
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L72
+    line: 72
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.GaugeGroupℤ₃
+    content: |
+      The gauge group of the Standard Model with a ℤ₃-quotient, i.e., the quotient of `GaugeGroupI` by
+      the ℤ₃-subgroup `gaugeGroupℤ₃SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L123
+    line: 123
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.gaugeTransformI
+    content: |
+      A global section of `gaugeBundleI`. 
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L46
+    line: 46
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.gaugeGroupℤ₂SubGroup
+    content: |
+      The ℤ₂subgroup of the un-quotiented gauge group which acts trivially on all particles in the
+      standard model, i.e., the ℤ₂-subgroup of `GaugeGroupI` derived from the ℤ₂ subgroup of
+      `gaugeGroupℤ₆SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L38
+    line: 38
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.GaugeGroupℤ₆
+    content: |
+      The smallest possible gauge group of the Standard Model, i.e., the quotient of `GaugeGroupI` by
+      the ℤ₆-subgroup `gaugeGroupℤ₆SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L95
+    line: 95
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.GaugeGroup
+    content: |
+      The (global) gauge group of the Standard Model given a choice of quotient, i.e., the map from
+      `GaugeGroupQuot` to `Type` which gives the gauge group of the Standard Model for a given choice of
+      quotient.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L63
+    line: 63
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.gaugeGroupℤ₃SubGroup
+    content: |
+      The ℤ₃-subgroup of the un-quotiented gauge group which acts trivially on all particles in the
+      standard model, i.e., the ℤ₃-subgroup of `GaugeGroupI` derived from the ℤ₃ subgroup of
+      `gaugeGroupℤ₆SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L55
+    line: 55
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.GaugeGroupℤ₂
+    content: |
+      The gauge group of the Standard Model with a ℤ₂ quotient, i.e., the quotient of `GaugeGroupI` by
+      the ℤ₂-subgroup `gaugeGroupℤ₂SubGroup`.
+      
+      See https://math.ucr.edu/home/baez/guts.pdf
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/Basic.lean#L83
+    line: 83
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.HiggsBoson.Basic
+    content: |
+      Make `HiggsBundle` an associated bundle.
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/Basic.lean#L180
+    line: 180
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsField.zero_is_zero_section
+    content: |
+      The zero Higgs field is the zero section of the Higgs bundle, i.e., the HiggsField `zero`
+      defined by `ofReal 0` is the constant zero-section of the bundle `HiggsBundle`.
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L232
+    line: 232
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsVec.stability_group
+    content: |
+      The subgroup of `gaugeGroup := SU(3) × SU(2) × U(1)` which preserves every `HiggsVec` by the
+      action of `StandardModel.HiggsVec.rep` is given by `SU(3) × ℤ₆` where `ℤ₆` is the subgroup of
+      `SU(2) × U(1)` with elements `(α^(-3) * I₂, α)` where `α` is a sixth root of unity.
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L242
+    line: 242
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    content: |
+      Prove `⟪φ1, φ2⟫_H` invariant under the global gauge action. (norm_map_of_mem_unitary)
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L16
+    line: 16
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    content: |
+      Currently this only contains the action of the global gauge group. Generalize
+        to include the full action of the gauge group.
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L241
+    line: 241
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    content: |
+      Define the global gauge action on HiggsField.
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L243
+    line: 243
+    isInformalDef: false
+    isInformalLemma: false
+    category: Particles
+    name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    content: |
+      Prove invariance of potential under global gauge action.
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L253
+    line: 253
+    isInformalDef: true
+    isInformalLemma: false
+    category: Particles
+    name: StandardModel.HiggsField.gaugeAction
+    content: |
+      The action of `gaugeTransformI` on `HiggsField` acting pointwise through `HiggsVec.rep`. 
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L257
+    line: 257
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsField.guage_orbit
+    content: |
+      There exists a `g` in `gaugeTransformI` such that `gaugeAction g φ = φ'` iff
+      `φ(x)^† φ(x) = φ'(x)^† φ'(x)`.
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L220
+    line: 220
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsVec.guage_orbit
+    content: |
+      There exists a `g` in `GaugeGroupI` such that `rep g φ = φ'` iff `‖φ‖ = ‖φ'‖`. 
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L224
+    line: 224
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsVec.stability_group_single
+    content: |
+      The Higgs boson breaks electroweak symmetry down to the electromagnetic force, i.e., the
+      stability group of the action of `rep` on `![0, Complex.ofReal ‖φ‖]`, for non-zero `‖φ‖`, is the
+      `SU(3) × U(1)` subgroup of `gaugeGroup := SU(3) × SU(2) × U(1)` with the embedding given by
+      `(g, e^{i θ}) ↦ (g, diag (e ^ {3 * i θ}, e ^ {- 3 * i θ}), e^{i θ})`.
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/GaugeAction.lean#L263
+    line: 263
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsField.gauge_orbit_surject
+    content: |
+      For every smooth map `f` from `SpaceTime` to `ℝ` such that `f` is positive semidefinite, there
+      exists a Higgs field `φ` such that `f = φ^† φ`.
+      
+
+  - file: PhysLean.Particles.StandardModel.HiggsBoson.Potential
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/HiggsBoson/Potential.lean#L360
+    line: 360
+    isInformalDef: false
+    isInformalLemma: true
+    category: Particles
+    name: StandardModel.HiggsField.Potential.isBounded_iff_of_𝓵_zero
+    content: |
+      When there is no quartic coupling, the potential is bounded iff the mass squared is
+      non-positive, i.e., for `P : Potential` then `P.IsBounded` iff `P.μ2 ≤ 0`. That is to say
+      `- P.μ2 * ‖φ‖_H^2 x` is bounded below iff `P.μ2 ≤ 0`. 
+
+  - file: PhysLean.QFT.AnomalyCancellation.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/Basic.lean#L17
+    line: 17
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.Basic
+    content: |
+      Anomaly cancellation conditions can be derived formally from the gauge group
+        and fermionic representations using e.g. topological invariants. Include such a
+        definition.
+
+  - file: PhysLean.QFT.AnomalyCancellation.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/Basic.lean#L20
+    line: 20
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.Basic
+    content: |
+      Anomaly cancellation conditions can be defined using algebraic varieties.
+        Link such an approach to the approach here.
+
+  - file: PhysLean.QFT.AnomalyCancellation.PureU1.BasisLinear
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/PureU1/BasisLinear.lean#L78
+    line: 78
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.PureU1.BasisLinear
+    content: |
+      The definition of `coordinateMap` here may be improved by replacing
+        `Finsupp.equivFunOnFinite` with `Finsupp.linearEquivFunOnFinite`. Investigate this.
+
+  - file: PhysLean.QFT.AnomalyCancellation.PureU1.Even.BasisLinear
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/PureU1/Even/BasisLinear.lean#L619
+    line: 619
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.PureU1.Even.BasisLinear
+    content: |
+      Replace the definition of `join` with a Mathlib definition, most likely `Sum.elim`.
+
+  - file: PhysLean.QFT.AnomalyCancellation.PureU1.Odd.BasisLinear
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/PureU1/Odd/BasisLinear.lean#L626
+    line: 626
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.PureU1.Odd.BasisLinear
+    content: |
+      Replace the definition of `join` with a Mathlib definition, most likely `Sum.elim`.
+
+  - file: PhysLean.QFT.AnomalyCancellation.PureU1.Permutations
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/AnomalyCancellation/PureU1/Permutations.lean#L92
+    line: 92
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.AnomalyCancellation.PureU1.Permutations
+    content: |
+      Remove `pairSwap`, and use the Mathlib defined function `Equiv.swap` instead.
+
+  - file: PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.NormalOrder
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QFT/PerturbationTheory/FieldOpFreeAlgebra/NormalOrder.lean#L400
+    line: 400
+    isInformalDef: false
+    isInformalLemma: false
+    category: QFT
+    name: PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.NormalOrder
+    content: |
+      Split the following two lemmas up into smaller parts.
+
+  - file: PhysLean.QuantumMechanics.FiniteTarget.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QuantumMechanics/FiniteTarget/Basic.lean#L46
+    line: 46
+    isInformalDef: false
+    isInformalLemma: false
+    category: Quantum Mechanics
+    name: PhysLean.QuantumMechanics.FiniteTarget.Basic
+    content: |
+      Define a smooth structure on `FiniteTarget`.
+
+  - file: PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/QuantumMechanics/OneDimension/HarmonicOscillator/Basic.lean#L145
+    line: 145
+    isInformalDef: false
+    isInformalLemma: false
+    category: Quantum Mechanics
+    name: PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Basic
+    content: |
+      The momentum operator should be moved to a more general file.
+
+  - file: PhysLean.Relativity.Lorentz.Algebra.Basis
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Algebra/Basis.lean#L19
+    line: 19
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Algebra.Basis
+    content: |
+      Define the standard basis of the Lorentz algebra.
+
+  - file: PhysLean.Relativity.Lorentz.Bispinors.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Bispinors/Basic.lean#L34
+    line: 34
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Bispinors.Basic
+    content: |
+      To increase the speed of these files `(vecNodeE complexLorentzTensor .up p).tensor | μ` is
+        written out expliclity. Notation should be introduced so that we can just write `p | μ` or
+        similar without slowing things down.
+        This can be done by redefining bispinors in terms of actual tensors. 
+
+  - file: PhysLean.Relativity.Lorentz.Bispinors.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Bispinors/Basic.lean#L98
+    line: 98
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: complexLorentzTensor.coBispinorUp_eq_metric_contr_coBispinorDown
+    content: |
+      `{coBispinorUp p | α β = εL | α α' ⊗ εR | β β'⊗ coBispinorDown p | α' β' }ᵀ`.
+      
+      proof: expand `coBispinorDown` and use fact that metrics contract to the identity.
+      
+
+  - file: PhysLean.Relativity.Lorentz.Bispinors.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Bispinors/Basic.lean#L91
+    line: 91
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: complexLorentzTensor.contrBispinorUp_eq_metric_contr_contrBispinorDown
+    content: |
+      `{contrBispinorUp p | α β = εL | α α' ⊗ εR | β β'⊗ contrBispinorDown p | α' β' }ᵀ`.
+      
+      Proof: expand `contrBispinorDown` and use fact that metrics contract to the identity.
+      
+
+  - file: PhysLean.Relativity.Lorentz.ComplexTensor.Basis
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/ComplexTensor/Basis.lean#L35
+    line: 35
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.ComplexTensor.Basis
+    content: |
+      Replace basisVector in this file with TensorSpecies.tensorBasis.
+        All of the results here should be generalized to TensorSpecies.tensorBasis.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Basic.lean#L18
+    line: 18
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Basic
+    content: |
+      Define the Lie group structure on the Lorentz group.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Boosts
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Boosts.lean#L206
+    line: 206
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Boosts
+    content: |
+      Make `toLorentz` the definition of a generalised boost. This will involve
+        refactoring this file.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Boosts
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Boosts.lean#L212
+    line: 212
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Boosts
+    content: |
+      Show that generalised boosts are in the restricted Lorentz group.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Orthochronous
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Orthochronous.lean#L15
+    line: 15
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Orthochronous
+    content: |
+      Prove topological properties of the Orthochronous Lorentz Group.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Restricted
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L22
+    line: 22
+    isInformalDef: true
+    isInformalLemma: false
+    category: Relativity
+    name: LorentzGroup.Restricted
+    content: |
+      The subgroup of the Lorentz group consisting of elements which are proper and orthochronous. 
+
+  - file: PhysLean.Relativity.Lorentz.Group.Restricted
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L17
+    line: 17
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Restricted
+    content: |
+      Prove restricted Lorentz group equivalent to connected component of identity
+        of the Lorentz group.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Restricted
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L14
+    line: 14
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Restricted
+    content: |
+      Add definition of the restricted Lorentz group.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Restricted
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L15
+    line: 15
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Restricted
+    content: |
+      Prove that every member of the restricted Lorentz group is
+        combiniation of a boost and a rotation.
+
+  - file: PhysLean.Relativity.Lorentz.Group.Rotations
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Group/Rotations.lean#L14
+    line: 14
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.Group.Rotations
+    content: |
+      Generalize the inclusion of rotations into LorentzGroup to arbitrary dimension.
+
+  - file: PhysLean.Relativity.Lorentz.SL2C.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/SL2C/Basic.lean#L310
+    line: 310
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: Lorentz.SL2C.toRestrictedLorentzGroup
+    content: |
+      The homomorphism from `SL(2, ℂ)` to the restricted Lorentz group. 
+
+  - file: PhysLean.Relativity.Lorentz.SL2C.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/SL2C/Basic.lean#L315
+    line: 315
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Lorentz.SL2C.Basic
+    content: |
+      Define homomorphism from `SL(2, ℂ)` to the restricted Lorentz group.
+
+  - file: PhysLean.Relativity.Lorentz.Weyl.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Weyl/Basic.lean#L293
+    line: 293
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: Fermion.rightHandedWeylAltEquiv_equivariant
+    content: |
+      The linear equivalence `rightHandedWeylAltEquiv` is equivariant with respect to the action of
+      `SL(2,C)` on `rightHandedWeyl` and `altRightHandedWeyl`.
+      
+
+  - file: PhysLean.Relativity.Lorentz.Weyl.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Lorentz/Weyl/Basic.lean#L287
+    line: 287
+    isInformalDef: true
+    isInformalLemma: false
+    category: Relativity
+    name: Fermion.rightHandedWeylAltEquiv
+    content: |
+      The linear equivalence between `rightHandedWeyl` and `altRightHandedWeyl` given by multiplying
+      an element of `rightHandedWeyl` by the matrix `εᵃ⁰ᵃ¹ = !![0, 1; -1, 0]]`.
+      
+
+  - file: PhysLean.Relativity.SpaceTime.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/SpaceTime/Basic.lean#L22
+    line: 22
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.SpaceTime.Basic
+    content: |
+      SpaceTime should be refactored into a structure, or similar, to prevent casting.
+
+  - file: PhysLean.Relativity.SpaceTime.CliffordAlgebra
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/SpaceTime/CliffordAlgebra.lean#L14
+    line: 14
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.SpaceTime.CliffordAlgebra
+    content: |
+      Prove algebra generated by gamma matrices is isomorphic to Clifford algebra.
+
+  - file: PhysLean.Relativity.Tensors.OverColor.Discrete
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/OverColor/Discrete.lean#L164
+    line: 164
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Tensors.OverColor.Discrete
+    content: |
+      Find a better place for this.
+
+  - file: PhysLean.Relativity.Tensors.OverColor.Lift
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/OverColor/Lift.lean#L901
+    line: 901
+    isInformalDef: true
+    isInformalLemma: false
+    category: Relativity
+    name: IndexNotation.OverColor.forgetLift
+    content: |
+      The natural isomorphism between `lift (C := C) ⋙ forget` and
+      `Functor.id (Discrete C ⥤ Rep k G)`.
+      
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.Contractions.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/Contractions/Basic.lean#L51
+    line: 51
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.contractSelfField_non_degenerate
+    content: |
+      The contraction of two vectors of the same color is non-degenerate, i.e., `⟪ψ, φ⟫ₜₛ = 0` for all
+      `φ` implies `ψ = 0`.
+      
+      Proof: the basic idea is that being degenerate contradicts the assumption of having a
+      unit in the tensor species.
+      
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.Contractions.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/Contractions/Basic.lean#L60
+    line: 60
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.contractSelfField_tensorTree
+    content: |
+      The contraction `⟪ψ, φ⟫ₜₛ` is related to the tensor tree
+      `{ψ | μ ⊗ (S.dualRepIsoDiscrete c).hom φ | μ}ᵀ`. 
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.DualRepIso
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/DualRepIso.lean#L253
+    line: 253
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.dualRepIso_unitTensor_fst
+    content: |
+      Acting with `dualRepIso` on the fst component of a `unitTensor` returns a metric. 
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.DualRepIso
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/DualRepIso.lean#L257
+    line: 257
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.dualRepIso_unitTensor_snd
+    content: |
+      Acting with `dualRepIso` on the snd component of a `unitTensor` returns a metric. 
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.DualRepIso
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/DualRepIso.lean#L265
+    line: 265
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.dualRepIso_metricTensor_snd
+    content: |
+      Acting with `dualRepIso` on the snd component of a `metricTensor` returns a unitTensor. 
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.DualRepIso
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/DualRepIso.lean#L246
+    line: 246
+    isInformalDef: true
+    isInformalLemma: false
+    category: Relativity
+    name: TensorSpecies.dualRepIso
+    content: |
+      Given a `i : Fin n` the isomorphism between `S.F.obj (OverColor.mk c)` and
+      `S.F.obj (OverColor.mk (Function.update c i (S.τ (c i))))` induced by `dualRepIsoDiscrete` acting on
+      the `i`-th component of the color.
+      
+
+  - file: PhysLean.Relativity.Tensors.TensorSpecies.DualRepIso
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/TensorSpecies/DualRepIso.lean#L261
+    line: 261
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorSpecies.dualRepIso_metricTensor_fst
+    content: |
+      Acting with `dualRepIso` on the fst component of a `metricTensor` returns a unitTensor. 
+
+  - file: PhysLean.Relativity.Tensors.Tree.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/Tree/Basic.lean#L298
+    line: 298
+    isInformalDef: false
+    isInformalLemma: false
+    category: Relativity
+    name: PhysLean.Relativity.Tensors.Tree.Basic
+    content: |
+      Fill in the other relationships between tensor trees and tensor basis.
+
+  - file: PhysLean.Relativity.Tensors.Tree.NodeIdentities.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/Tree/NodeIdentities/Basic.lean#L33
+    line: 33
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorTree.constVecNode_eq_vecNode
+    content: |
+      A `constVecNode` has equal tensor to the `vecNode` with the map evaluated at 1. 
+
+  - file: PhysLean.Relativity.Tensors.Tree.NodeIdentities.Basic
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Relativity/Tensors/Tree/NodeIdentities/Basic.lean#L37
+    line: 37
+    isInformalDef: false
+    isInformalLemma: true
+    category: Relativity
+    name: TensorTree.constTwoNode_eq_twoNode
+    content: |
+      A `constTwoNode` has equal tensor to the `twoNode` with the map evaluated at 1. 

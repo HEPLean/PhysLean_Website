@@ -52,12 +52,26 @@ The three core values of PhysLean are:
 
 PhysLean has the potential to have the following impact on the physics community:
 - Make it easier to find results.
-- Make it easier to automate the creation of new results using e.g. machine learning methods.
+- Make it easier to automate the creation of new results using, e.g., machine learning methods.
 - Make it easier to check papers and results for mathematical correctness.
 - Create new avenues through which physics can be taught.
 - Open up new ways to interface between theory and computer programs.
 
-# 5. Benifits of a monolothic libary 
+# 5. Beneficiaries of the project 
+
+The beneficiaries of PhysLean are those people or companies which will directly or indirectly 
+benefit from the project. 
+
+We foresee the *academic* beneficiaries of PhysLean including: 
+- Students in physics, mathematics, or computer science.
+- Research physicists. 
+- Researchers in artificial intelligence. 
+
+We foresee the *industrial* beneficiaries of PhysLean including: 
+- Companies with an interest in artificial intelligence and its use in reasoning. 
+- Companies with an interest in proving correctness of theory behind physical processes.  
+
+# 6. Benefits of a monolothic libary 
 
 PhysLean is a monolithic library for physics, similar to how Mathlib serves mathematics. It aims to cover the entire field of physics within a single, unified framework. Here are some key motivations for adopting a monolithic approach:
 - **Prevents duplication of work**: A single, comprehensive library ensures that contributors don’t waste effort reinventing the wheel.
@@ -66,6 +80,6 @@ PhysLean is a monolithic library for physics, similar to how Mathlib serves math
 - **Encourages standardization**: A single library fosters consistency in notation, conventions, and methodology, reducing fragmentation in the ecosystem. 
 - **Improves discoverability and usability**: With all physics in one place, users can more easily find and apply existing results rather than searching through scattered libraries.
 
-# 6. Where to learn more
+# 7. Where to learn more
 
 You can learn more about PhysLean by reading: [2405.08863](https://inspirehep.net/literature/2787050), or contacting Joseph Tooby-Smith at: joseph at heplean dot com.

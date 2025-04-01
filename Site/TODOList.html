@@ -9,14 +9,13 @@ Feel free to tackle any of the items here.
 {% for cat in site.data.TODO.Category %}
 
 <h3>{{ cat.name }} {{ cat.emoji }}</h3>
-
-<details>
-  <summary style="font-size: 0.8em; margin-left: 1em;">Show {{cat.num}} TODO items:</summary>
+<details open>
+  <summary style="font-size: 0.8em; margin-left: 1em;">Hide {{cat.num}} TODO items:</summary>
 
 
 {% for entry in site.data.TODO.TODOItem %}
   {% if entry.category == cat.name %}
-        <a href="{{ entry.githubLink }}" class="list-group-item list-group-item-action">
+        <div class="list-group-item list-group-item-action" id="{{ entry.tag }}">
           <div class="d-flex w-100 justify-content-between">
             {% if entry.isInformalDef == true %}
             <p href="#" class="badge badge-primary" style="background-color: rgba(65, 105, 225, 0.1);color: #1e40af;">Informal definition</p>  ({{ entry.name }}) 
@@ -31,7 +30,9 @@ Feel free to tackle any of the items here.
             
         </div>
         <p>{{ entry.content | markdownify}}</p>
-  </a>
+        <a class="badge badge-primary" href="{{ entry.githubLink }}" style="background-color: rgba(128, 128, 128, 0.1);color: #808080;;">See on GitHub</a>
+        <a class="badge badge-primary" href="#{{ entry.tag }}" style="background-color: rgba(128, 128, 128, 0.1);color: #808080;">Tag: {{ entry.tag }}</a>
+      </div>
   {% endif %}
 {% endfor %}
 </details>

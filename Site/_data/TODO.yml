@@ -49,6 +49,7 @@ TODOItem:
     line: 95
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
     tag: 6VZGU
@@ -60,6 +61,7 @@ TODOItem:
     line: 97
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
     tag: 6VZG4
@@ -72,6 +74,7 @@ TODOItem:
     line: 100
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Basic
     tag: 6VZHC
@@ -83,6 +86,7 @@ TODOItem:
     line: 34
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
     tag: 6VZME
@@ -94,6 +98,7 @@ TODOItem:
     line: 288
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
     tag: 6VZI3
@@ -106,6 +111,7 @@ TODOItem:
     line: 291
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
     tag: 6VZJB
@@ -118,6 +124,7 @@ TODOItem:
     line: 294
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
     tag: 6VZJH
@@ -130,6 +137,7 @@ TODOItem:
     line: 297
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Classical Mechanics
     name: PhysLean.ClassicalMechanics.HarmonicOscillator.Solution
     tag: 6VZJO
@@ -141,6 +149,7 @@ TODOItem:
     line: 455
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Electromagnetism
     name: PhysLean.Electromagnetism.FieldStrength.Basic
     tag: 6V2OU
@@ -152,6 +161,7 @@ TODOItem:
     line: 459
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Electromagnetism
     name: PhysLean.Electromagnetism.FieldStrength.Basic
     tag: 6V2O4
@@ -164,6 +174,7 @@ TODOItem:
     line: 23
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Electromagnetism
     name: PhysLean.Electromagnetism.MaxwellEquations
     tag: 6V2UZ
@@ -179,6 +190,7 @@ TODOItem:
     line: 74
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Electromagnetism
     name: PhysLean.Electromagnetism.MaxwellEquations
     tag: 6V2VD
@@ -191,6 +203,7 @@ TODOItem:
     line: 17
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Mathematics
     name: PhysLean.Mathematics.LinearMaps
     tag: 6VZLZ
@@ -202,6 +215,7 @@ TODOItem:
     line: 78
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Meta
     name: PhysLean.Meta.TransverseTactics
     tag: 6VZEW
@@ -214,6 +228,7 @@ TODOItem:
     line: 20
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: GeorgiGlashow.GaugeGroupI
     tag: 6V2WM
@@ -225,6 +240,7 @@ TODOItem:
     line: 25
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: GeorgiGlashow.inclSM
     tag: 6V2WS
@@ -241,6 +257,7 @@ TODOItem:
     line: 35
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: GeorgiGlashow.inclSM_ker
     tag: 6V2W2
@@ -255,6 +272,7 @@ TODOItem:
     line: 43
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: GeorgiGlashow.embedSMℤ₆
     tag: 6V2XA
@@ -268,6 +286,7 @@ TODOItem:
     line: 25
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.GaugeGroupI
     tag: 6V2Q2
@@ -279,6 +298,7 @@ TODOItem:
     line: 30
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.inclSM
     tag: 6V2RH
@@ -295,6 +315,7 @@ TODOItem:
     line: 40
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.inclSM_ker
     tag: 6V2RQ
@@ -309,6 +330,7 @@ TODOItem:
     line: 48
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.embedSMℤ₃
     tag: 6V2RY
@@ -322,6 +344,7 @@ TODOItem:
     line: 55
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.gaugeGroupISpinEquiv
     tag: 6V2R7
@@ -333,6 +356,7 @@ TODOItem:
     line: 60
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.gaugeGroupℤ₂SubGroup
     tag: 6V2SG
@@ -348,6 +372,7 @@ TODOItem:
     line: 69
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.GaugeGroupℤ₂
     tag: 6V2SM
@@ -363,6 +388,7 @@ TODOItem:
     line: 78
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.sm_ℤ₆_factor_through_gaugeGroupℤ₂SubGroup
     tag: 6V2SV
@@ -376,6 +402,7 @@ TODOItem:
     line: 85
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PatiSalam.embedSMℤ₆Toℤ₂
     tag: 6V2S4
@@ -388,6 +415,7 @@ TODOItem:
     line: 19
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.GaugeGroupI
     tag: 6V2X7
@@ -399,6 +427,7 @@ TODOItem:
     line: 24
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.inclPatiSalam
     tag: 6V2YG
@@ -416,6 +445,7 @@ TODOItem:
     line: 35
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.inclSM
     tag: 6V2YO
@@ -431,6 +461,7 @@ TODOItem:
     line: 44
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.inclGeorgiGlashow
     tag: 6V2YU
@@ -444,6 +475,7 @@ TODOItem:
     line: 51
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.inclSMThruGeorgiGlashow
     tag: 6V2YZ
@@ -457,6 +489,7 @@ TODOItem:
     line: 58
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: Spin10Model.inclSM_eq_inclSMThruGeorgiGlashow
     tag: 6V2Y6
@@ -468,6 +501,7 @@ TODOItem:
     line: 25
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Basic
     tag: 6V2TZ
@@ -481,6 +515,7 @@ TODOItem:
     line: 151
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Basic
     tag: 6V2UD
@@ -494,6 +529,7 @@ TODOItem:
     line: 86
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: TwoHDM.prodMatrix_invariant
     tag: 6V2VS
@@ -506,6 +542,7 @@ TODOItem:
     line: 92
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: TwoHDM.prodMatrix_to_higgsField
     tag: 6V2V2
@@ -518,10 +555,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L15
-    line: 15
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L16
+    line: 16
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.Basic
     tag: 6V2FP
@@ -529,12 +567,13 @@ TODOItem:
       Redefine the gauge group as a quotient of SU(3) x SU(2) x U(1) by a subgroup of ℤ₆.
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L29
-    line: 29
-    isInformalDef: true
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L30
+    line: 30
+    isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: true
     category: Particles
-    name: StandardModel.gaugeGroupℤ₆SubGroup
+    name: gaugeGroupℤ₆SubGroup
     tag: 6V2FZ
     content: |
       The subgroup of the un-quotiented gauge group which acts trivially on all particles in the
@@ -545,12 +584,13 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L39
-    line: 39
-    isInformalDef: true
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L38
+    line: 38
+    isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: true
     category: Particles
-    name: StandardModel.GaugeGroupℤ₆
+    name: GaugeGroupℤ₆
     tag: 6V2GA
     content: |
       The smallest possible gauge group of the Standard Model, i.e., the quotient of `GaugeGroupI` by
@@ -560,10 +600,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L48
-    line: 48
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L45
+    line: 45
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeGroupℤ₂SubGroup
     tag: 6V2GH
@@ -576,10 +617,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L58
-    line: 58
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L55
+    line: 55
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.GaugeGroupℤ₂
     tag: 6V2GO
@@ -591,10 +633,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L67
-    line: 67
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L64
+    line: 64
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeGroupℤ₃SubGroup
     tag: 6V2GV
@@ -607,10 +650,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L77
-    line: 77
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L74
+    line: 74
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.GaugeGroupℤ₃
     tag: 6V2G3
@@ -622,10 +666,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L101
-    line: 101
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L98
+    line: 98
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.GaugeGroup
     tag: 6V2HF
@@ -638,10 +683,11 @@ TODOItem:
       
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L118
-    line: 118
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L115
+    line: 115
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeGroupI_lie
     tag: 6V2HL
@@ -649,10 +695,11 @@ TODOItem:
       The gauge group `GaugeGroupI` is a Lie group. 
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L123
-    line: 123
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L120
+    line: 120
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeGroup_lie
     tag: 6V2HR
@@ -660,10 +707,11 @@ TODOItem:
       For every `q` in `GaugeGroupQuot` the group `GaugeGroup q` is a Lie group. 
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L128
-    line: 128
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L125
+    line: 125
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeBundleI
     tag: 6V2HX
@@ -671,10 +719,11 @@ TODOItem:
       The trivial principal bundle over SpaceTime with structure group `GaugeGroupI`. 
 
   - file: PhysLean.Particles.StandardModel.Basic
-    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L133
-    line: 133
+    githubLink: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Particles/StandardModel/Basic.lean#L130
+    line: 130
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.gaugeTransformI
     tag: 6V2H5
@@ -686,6 +735,7 @@ TODOItem:
     line: 81
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.HiggsBoson.Basic
     tag: 6V2IS
@@ -697,6 +747,7 @@ TODOItem:
     line: 179
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsField.zero_is_zero_section
     tag: 6V2I5
@@ -710,6 +761,7 @@ TODOItem:
     line: 14
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
     tag: 6V2LJ
@@ -722,6 +774,7 @@ TODOItem:
     line: 218
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsVec.guage_orbit
     tag: 6V2L2
@@ -733,6 +786,7 @@ TODOItem:
     line: 223
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsVec.stability_group_single
     tag: 6V2MD
@@ -748,6 +802,7 @@ TODOItem:
     line: 232
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsVec.stability_group
     tag: 6V2MO
@@ -762,6 +817,7 @@ TODOItem:
     line: 242
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
     tag: 6V2MV
@@ -773,6 +829,7 @@ TODOItem:
     line: 243
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
     tag: 6V2M3
@@ -784,6 +841,7 @@ TODOItem:
     line: 244
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: PhysLean.Particles.StandardModel.HiggsBoson.GaugeAction
     tag: 6V2NA
@@ -795,6 +853,7 @@ TODOItem:
     line: 254
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsField.gaugeAction
     tag: 6V2NP
@@ -806,6 +865,7 @@ TODOItem:
     line: 259
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsField.guage_orbit
     tag: 6V2NX
@@ -819,6 +879,7 @@ TODOItem:
     line: 266
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsField.gauge_orbit_surject
     tag: 6V2OC
@@ -832,6 +893,7 @@ TODOItem:
     line: 360
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Particles
     name: StandardModel.HiggsField.Potential.isBounded_iff_of_𝓵_zero
     tag: 6V2K5
@@ -845,6 +907,7 @@ TODOItem:
     line: 17
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.Basic
     tag: 6VZMW
@@ -858,6 +921,7 @@ TODOItem:
     line: 20
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.Basic
     tag: 6VZM3
@@ -870,6 +934,7 @@ TODOItem:
     line: 78
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.PureU1.BasisLinear
     tag: 6VZO6
@@ -882,6 +947,7 @@ TODOItem:
     line: 624
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.PureU1.Even.BasisLinear
     tag: 6VZTB
@@ -893,6 +959,7 @@ TODOItem:
     line: 631
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.PureU1.Odd.BasisLinear
     tag: 6VZRN
@@ -904,6 +971,7 @@ TODOItem:
     line: 92
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.AnomalyCancellation.PureU1.Permutations
     tag: 6VZPL
@@ -915,6 +983,7 @@ TODOItem:
     line: 400
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: QFT
     name: PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.NormalOrder
     tag: 6V2JJ
@@ -926,6 +995,7 @@ TODOItem:
     line: 46
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Quantum Mechanics
     name: PhysLean.QuantumMechanics.FiniteTarget.Basic
     tag: 6VZGG
@@ -937,6 +1007,7 @@ TODOItem:
     line: 145
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Quantum Mechanics
     name: PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Basic
     tag: 6VZH3
@@ -948,6 +1019,7 @@ TODOItem:
     line: 19
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Algebra.Basis
     tag: 6VZKA
@@ -959,6 +1031,7 @@ TODOItem:
     line: 84
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: complexLorentzTensor.contrBispinorUp_eq_metric_contr_contrBispinorDown
     tag: 6V2PV
@@ -973,6 +1046,7 @@ TODOItem:
     line: 92
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: complexLorentzTensor.coBispinorUp_eq_metric_contr_coBispinorDown
     tag: 6V2P6
@@ -987,6 +1061,7 @@ TODOItem:
     line: 296
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.ComplexTensor.Basic
     tag: 6V2BK
@@ -999,6 +1074,7 @@ TODOItem:
     line: 35
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.ComplexTensor.Basis
     tag: 6V2C5
@@ -1011,6 +1087,7 @@ TODOItem:
     line: 18
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Basic
     tag: 6VZHM
@@ -1022,6 +1099,7 @@ TODOItem:
     line: 206
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Boosts.Generalized
     tag: 6VZKM
@@ -1034,6 +1112,7 @@ TODOItem:
     line: 212
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Boosts.Generalized
     tag: 6VZKU
@@ -1045,6 +1124,7 @@ TODOItem:
     line: 15
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Orthochronous
     tag: 6VZLO
@@ -1056,6 +1136,7 @@ TODOItem:
     line: 14
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Restricted
     tag: 6VZNK
@@ -1067,6 +1148,7 @@ TODOItem:
     line: 15
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Restricted
     tag: 6VZNP
@@ -1079,6 +1161,7 @@ TODOItem:
     line: 17
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Restricted
     tag: 6VZNU
@@ -1091,6 +1174,7 @@ TODOItem:
     line: 22
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: LorentzGroup.Restricted
     tag: 6VZN7
@@ -1102,6 +1186,7 @@ TODOItem:
     line: 14
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.Group.Rotations
     tag: 6VZIS
@@ -1113,6 +1198,7 @@ TODOItem:
     line: 73
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.RealTensor.Derivative
     tag: 6V2CQ
@@ -1127,6 +1213,7 @@ TODOItem:
     line: 310
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: Lorentz.SL2C.toRestrictedLorentzGroup
     tag: 6VZP6
@@ -1138,6 +1225,7 @@ TODOItem:
     line: 316
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Lorentz.SL2C.Basic
     tag: 6VZQF
@@ -1149,6 +1237,7 @@ TODOItem:
     line: 287
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: Fermion.rightHandedWeylAltEquiv
     tag: 6VZR4
@@ -1162,6 +1251,7 @@ TODOItem:
     line: 294
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: Fermion.rightHandedWeylAltEquiv_equivariant
     tag: 6VZSG
@@ -1175,6 +1265,7 @@ TODOItem:
     line: 20
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.SpaceTime.Basic
     tag: 6V2DR
@@ -1186,6 +1277,7 @@ TODOItem:
     line: 14
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.SpaceTime.CliffordAlgebra
     tag: 6VZF2
@@ -1197,6 +1289,7 @@ TODOItem:
     line: 50
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Special.TwinParadox.Basic
     tag: 6V2UQ
@@ -1208,6 +1301,7 @@ TODOItem:
     line: 93
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.OverColor.Iso
     tag: 6VZTR
@@ -1220,6 +1314,7 @@ TODOItem:
     line: 926
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: IndexNotation.OverColor.forgetLift
     tag: 6VZWS
@@ -1233,6 +1328,7 @@ TODOItem:
     line: 51
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.contractSelfField_non_degenerate
     tag: 6V2TI
@@ -1249,6 +1345,7 @@ TODOItem:
     line: 61
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.contractSelfField_tensorTree
     tag: 6V2TO
@@ -1261,6 +1358,7 @@ TODOItem:
     line: 246
     isInformalDef: true
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.dualRepIso
     tag: 6V2D6
@@ -1275,6 +1373,7 @@ TODOItem:
     line: 254
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.dualRepIso_unitTensor_fst
     tag: 6V2EG
@@ -1286,6 +1385,7 @@ TODOItem:
     line: 259
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.dualRepIso_unitTensor_snd
     tag: 6V2EN
@@ -1297,6 +1397,7 @@ TODOItem:
     line: 264
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.dualRepIso_metricTensor_fst
     tag: 6V2EV
@@ -1308,6 +1409,7 @@ TODOItem:
     line: 269
     isInformalDef: false
     isInformalLemma: true
+    isSemiFormalResult: false
     category: Relativity
     name: TensorSpecies.dualRepIso_metricTensor_snd
     tag: 6V2E4
@@ -1319,6 +1421,7 @@ TODOItem:
     line: 513
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.TensorSpecies.Tensor.Basic
     tag: 6VZ3C
@@ -1331,6 +1434,7 @@ TODOItem:
     line: 627
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.TensorSpecies.Tensor.Basic
     tag: 6VZ3N
@@ -1343,6 +1447,7 @@ TODOItem:
     line: 742
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.TensorSpecies.Tensor.Basic
     tag: 6VZ3U
@@ -1355,6 +1460,7 @@ TODOItem:
     line: 353
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.TensorSpecies.Tensor.Contraction
     tag: 6VZ6V
@@ -1366,6 +1472,7 @@ TODOItem:
     line: 121
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.TensorSpecies.Tensor.Evaluation
     tag: 6VZ6G
@@ -1377,6 +1484,7 @@ TODOItem:
     line: 299
     isInformalDef: false
     isInformalLemma: false
+    isSemiFormalResult: false
     category: Relativity
     name: PhysLean.Relativity.Tensors.Tree.Basic
     tag: 6VZ5Z

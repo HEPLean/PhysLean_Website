@@ -32,10 +32,30 @@ Feel free to tackle any of the items here.
         <p>{{ entry.content | markdownify}}</p>
         <a class="badge badge-primary" href="{{ entry.githubLink }}" style="background-color: rgba(128, 128, 128, 0.1);color: #808080;;">See on GitHub</a>
         <a class="badge badge-primary" href="#{{ entry.tag }}" style="background-color: rgba(128, 128, 128, 0.1);color: #808080;">Tag: {{ entry.tag }}</a>
+        <!-- Copy tag buttons. -->
+              {% if entry.isInformalDef == true %}
+              <button class="badge badge-primary" onclick="copyToClipboard('[informal_def ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
+              {% else %}
+              {% if entry.isInformalLemma == true %}
+              <button class="badge badge-primary" onclick="copyToClipboard('[informal_lemma ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
+              {% else %}
+              <button class="badge badge-primary" onclick="copyToClipboard('[TODO ({{ entry.tag }}): file {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
+              {% endif %}
+              {% endif %}
       </div>
   {% endif %}
 {% endfor %}
 </details>
 {% endfor %}
 
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+     
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  }
+</script>
 

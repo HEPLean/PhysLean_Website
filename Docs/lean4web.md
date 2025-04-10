@@ -103,3 +103,10 @@ sudo certbot --nginx
 ```
 The main source for the setup was: 
     https://www.youtube.com/watch?v=SSLhGanxmCg&t=373s
+
+
+## Updating PhysLean version
+```
+cd ./lean4web
+npm run build
+```

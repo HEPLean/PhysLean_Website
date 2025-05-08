@@ -82,4 +82,4 @@ PhysLean is a monolithic library for physics, similar to how Mathlib serves math
 
 # 7. Where to learn more
 
-You can learn more about PhysLean by reading: [2405.08863](https://inspirehep.net/literature/2787050), or contacting Joseph Tooby-Smith at: joseph at heplean dot com.
+You can learn more about PhysLean by reading: [2405.08863](https://inspirehep.net/literature/2787050), or contacting [Joseph Tooby-Smith](https://josephtoobysmith.com).

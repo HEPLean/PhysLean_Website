@@ -110,3 +110,10 @@ The main source for the setup was:
 cd ./lean4web
 npm run build
 ```
+
+## cron job 
+
+To see the cron job: 
+```
+crontab -e
+```

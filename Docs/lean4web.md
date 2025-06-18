@@ -105,6 +105,12 @@ The main source for the setup was:
     https://www.youtube.com/watch?v=SSLhGanxmCg&t=373s
 
 
+Then make the changes here:
+
+```
+https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/.60import.20Mathlib.60.20not.20working.20in.20.60live.2Elean-lang.2Eorg.60.3F/with/523569316
+```
+
 ## Updating PhysLean version
 ```
 cd ./lean4web
@@ -117,3 +123,11 @@ To see the cron job:
 ```
 crontab -e
 ```
+
+## Trouble shooting. 
+
+In 
+```
+nano client/src/config/config.tsx
+```
+you may have to set `contactdetails` to `null` 

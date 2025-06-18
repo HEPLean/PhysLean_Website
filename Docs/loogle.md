@@ -18,11 +18,26 @@ Installing `elan`:
 curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh
 ```
 
+may also need to run 
+```
+apt install elan
+```
+
 Installing `prometheus-client`
 ```
 pip3 install --break-system-packages  prometheus-client
 ```
 
+I having problems with secomp
+```
+sudo apt-get install libseccomp-dev
+```
+or 
+```
+sudo apt install --reinstall libseccomp-dev
+export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+lake build
+```
 
 ## Setting environment
 
@@ -47,6 +62,12 @@ cd ./loogle/;
 lake update;
 lake exe cache get;
 lake build;
+```
+
+If want to build in background can use: 
+``` 
+touch /root/loogleOut.txt 
+nohup lake build > /root/loogleOut.txt 2>&1 &
 ```
 
 ## Setting up nginx
@@ -109,4 +130,36 @@ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
 lake update;
 lake exe cache get;
 lake build;
+```
+
+## Getting the port to work
+
+I updated `/etc/nginx/sites-available/loogle.physlean.com` to 
+```
+server {
+    listen 80;
+    server_name loogle.physlean.com;
+
+    location / {
+        proxy_pass http://159.65.55.208:8000;  # Replace YOUR_PORT with the port your app listens on
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+ALlowed 
+```
+sudo ufw allow 8000
+```
+
+Then made a cerficate: 
+```
+sudo certbot --nginx
+```
+
+Restarted nginx 
+```
+sudo systemctl reload nginx
 ```

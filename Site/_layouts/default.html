@@ -29,6 +29,13 @@
     </header>
 
   <!-- Navigation sidebar that provides links to key sections of the website -->
+  <!-- Calculate TODO statistics -->
+    {% assign total_items = 0 %}
+    {% assign completed_items = 0 %}
+    {% for item in site.data.TODO.Category %}
+        {% assign total_items = total_items | plus: item.num %}
+    {% endfor %}
+  <!-- End TODO statistics -->
   <div class="page-wrapper">
     <aside class="sidebar">
       <nav class="sidebar-nav">
@@ -44,7 +51,7 @@
             </svg></a></li>
           <li><a href="/">Home</a></li>
           <li><a href="/GettingStarted.html">Getting Started</a></li>
-          <li><a href="/TODOList">TODO list</a></li>
+          <li><a href="/TODOList">TODO list ({{ total_items }})</a></li>
           <li><a href="https://leanprover.zulipchat.com/#narrow/channel/479953-PhysLean">Discussion Forum 
               <!-- https://ux.stackexchange.com/a/136689 -->
               <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">

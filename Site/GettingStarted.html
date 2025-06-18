@@ -7,7 +7,7 @@ layout: default
     }
 </style>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/kimbie-dark.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="../assets/css/lean.min.js"></script>
 <script>hljs.highlightAll();</script>
@@ -92,13 +92,9 @@ who are new to the project.
         </li>
         <li>Run the following commands in the top-level PhysLean directory:</li>
     </ol>
-    <pre style="background-color: #e9ecef; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 14px; line-height: 1.5; border: 1px solid #ced4da;">
-        <code class="language-bash" data-trim data-noescape>
-lake update 
+<pre><code class="language-bash">lake update 
 lake exe cache get
-lake build
-        </code>
-    </pre>
+lake build</code></pre>
     Here <code>lake build</code> may take around 20 minutes.
 </div>
 
@@ -109,15 +105,12 @@ lake build
         PhysLean or one of its dependencies may have been updated to a new version of 
         Lean for example. In these cases you can try the following:</p>
     </p>
-    <pre
-        style="background-color: #e9ecef; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 14px; line-height: 1.5; border: 1px solid #ced4da;">
-            <code class="language-bash" data-trim data-noescape>
-    rm -rf .lake
-    lake update
-    lake exe cache get
-    lake build
-            </code>
-        </pre>
+<pre><code class="language-bash">rm -rf .lake
+lake update
+lake exe cache get
+lake build</code></pre>
+or as a single command:
+<pre><code class="language-bash">rm -rf .lake; lake update; lake exe cache get; lake build</code></pre>
 </div>
 
 <h1>Writing results</h1>

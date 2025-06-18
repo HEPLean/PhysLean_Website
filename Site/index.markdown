@@ -19,15 +19,22 @@
   </div>
 </div>
 
-**PhysLean was formerly called HepLean**
+# 1. What is Lean? 
 
-# 1. Mission of PhysLean
+Lean is a computer programming language in a class of languages 
+called interactive theorem provers (ITP). In an ITP one can write down mathematical definitions, 
+theorems and proves, and the ITP will ensure mathematically correctness and consistency of 
+those things.  It does this using a mathematical foundation called type theory. 
+
+Lean is increasingly been used by AI companies to reason about, and prove mathematical theorems. 
+
+# 2. Mission of PhysLean
 
 To create a library of digitalized physics results in the theorem prover Lean 4, 
 in a way which is useful to the broad physics community.
 
 
-# 2. Vision of PhysLean
+# 3. Vision of PhysLean
 
 **Statement**: PhysLean aspires to be the definitive library for physics in Lean, 
 akin to Mathlib for mathematics,
@@ -41,14 +48,14 @@ with both the Lean and physics communities behind it and a potential formal coll
 - An intuitive set-up that aligns with the way physicists think and work.
 - A large and active team, with the potential for structured, high-energy physics-style collaborations.
 
-# 3. Values of PhysLean
+# 4. Values of PhysLean
 The three core values of PhysLean are:
 
 - *Welcoming*:  PhysLean strives to foster an environment where contributors of all academic backgrounds and experience levels feel valued, supported, and empowered to make meaningful contributions.
 - *Open and Transparent*: PhysLean and its outputs will always be openly accessible, freely available, and developed with transparency to benefit the broader physics and Lean communities.
 - *Accessibility and Practicality*: PhysLean is designed to be intuitive, well-documented, and directly useful to physicists, regardless of their familiarity with formal methods.
 
-# 4. Potential impact of the PhysLean
+# 5. Potential impact of the PhysLean
 
 PhysLean has the potential to have the following impact on the physics community:
 - Make it easier to find results.
@@ -57,7 +64,7 @@ PhysLean has the potential to have the following impact on the physics community
 - Create new avenues through which physics can be taught.
 - Open up new ways to interface between theory and computer programs.
 
-# 5. Beneficiaries of the project 
+# 6. Beneficiaries of the project 
 
 The beneficiaries of PhysLean are those people or companies which will directly or indirectly 
 benefit from the project. 
@@ -71,7 +78,7 @@ We foresee the *industrial* beneficiaries of PhysLean including:
 - Companies with an interest in artificial intelligence and its use in reasoning. 
 - Companies with an interest in proving correctness of theory behind physical processes.  
 
-# 6. Benefits of a monolothic libary 
+# 7. Benefits of a monolothic libary 
 
 PhysLean is a monolithic library for physics, similar to how Mathlib serves mathematics. It aims to cover the entire field of physics within a single, unified framework. Here are some key motivations for adopting a monolithic approach:
 - **Prevents duplication of work**: A single, comprehensive library ensures that contributors don’t waste effort reinventing the wheel.
@@ -80,6 +87,6 @@ PhysLean is a monolithic library for physics, similar to how Mathlib serves math
 - **Encourages standardization**: A single library fosters consistency in notation, conventions, and methodology, reducing fragmentation in the ecosystem. 
 - **Improves discoverability and usability**: With all physics in one place, users can more easily find and apply existing results rather than searching through scattered libraries.
 
-# 7. Where to learn more
+# 8. Where to learn more
 
 You can learn more about PhysLean by reading: [2405.08863](https://inspirehep.net/literature/2787050), or contacting [Joseph Tooby-Smith](https://josephtoobysmith.com).

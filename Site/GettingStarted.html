@@ -20,26 +20,45 @@ layout: default
 This is a guide for getting started with PhysLean, aimed at people with no Lean experience or
 who are new to the project.
 
-<div style="text-align: center; margin: 40px 0;">
-    <a href="GetInvolved.html" 
-        style="display: inline-block; 
-        background: linear-gradient(145deg, #2a9847, #217a39);
-        color: white; 
-        padding: 16px 32px; 
-        border-radius: 6px; 
-        text-decoration: none; 
-        font-size: 1.1em; 
-        font-weight: 500; 
-        letter-spacing: 0.5px;
-        transition: all 0.2s ease;
-        border: 1px solid rgba(255,255,255,0.1);
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1);">
-        Click here for ideas of <u>how</u> to get involved
-    </a>
+
+<div style="background-color: #f8f9fa; border: 2px solid #007acc; border-radius: 12px; padding: 30px; margin: 30px 0; box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);">
+    <h2 style="color: #007acc; margin-top: 0; margin-bottom: 25px; text-align: center; font-size: 1.8em; border-bottom: 2px solid #007acc; padding-bottom: 10px;">Table of Contents</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 15px; font-size: 1.2em;">📚 Getting Started</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 8px;"><a href="#useful-resources" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Useful Resources</a></li>
+                <li style="margin-bottom: 8px;"><a href="#installing" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Installation Guide</a></li>
+            </ul>
+        </div>
+        
+        <div style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 15px; font-size: 1.2em;">✍️ Writing & Development</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 8px;"><a href="#writing-results" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Writing Results</a></li>
+                <li style="margin-bottom: 8px;"><a href="#making-a-new-file" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Making a New File</a></li>
+            </ul>
+        </div>
+        
+        <div style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 15px; font-size: 1.2em;">🔧 Code Quality & Contribution</h3>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 8px;"><a href="#linting" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Linting</a></li>
+                <li style="margin-bottom: 8px;"><a href="#making-a-pull-request" style="color: #007acc; text-decoration: none; padding: 5px 0; display: block; border-left: 3px solid transparent; padding-left: 10px; transition: all 0.2s;">Making a Pull Request</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
-
-<h1>Useful resources</h1>
+<style>
+    .table-of-contents a:hover {
+        border-left: 3px solid #007acc !important;
+        background-color: #f8f9fa;
+        transform: translateX(5px);
+    }
+</style>
+<h1 id="useful-resources">Useful resources</h1>
 <div class="resource-grid" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0;">
     <a href="https://adam.math.hhu.de" 
        style="flex: 1; min-width: 300px; max-width: 450px; 
@@ -76,7 +95,7 @@ who are new to the project.
     </a>
 </div>
 
-<h1>Installing</h1>
+<h1 id="installing">Installing</h1>
 <div style="background-color: #f8f9fa; border: 2px solid #007acc; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #007acc; margin-top: 0;">Lean Installation Guide</h2>
     <p>Ready to get started with Lean? Click the button below to see the installation instructions:</p>
@@ -113,7 +132,7 @@ or as a single command:
 <pre><code class="language-bash">rm -rf .lake; lake update; lake exe cache get; lake build</code></pre>
 </div>
 
-<h1>Writing results</h1>
+<h1 id="writing-results">Writing results</h1>
 
 <div
     style="background-color: #f8f9fa; border: 2px solid #6c757d; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
@@ -239,7 +258,7 @@ TODO "6VZHC" "Create a new folder for the damped harmonic oscillator, initially 
 <!----------------------------------->
 <!----------------------------------->
 
-<h1>Making a new file</h1>
+<h1 id="making-a-new-file">Making a new file</h1>
 
 <div
     style="background-color: #f8f9fa; border: 2px solid #5513daab; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
@@ -297,7 +316,7 @@ import PhysLean.Meta.Informal.Basic
 <!----------------------------------->
 <!----------------------------------->
 
-<h1>Linting</h1>
+<h1 id="linting">Linting</h1>
 <div style="background-color: #ffffff; border: 2px solid #cc4e00; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #cc4e00; margin-top: 0;">What is Linting?</h2>
     <p>Linting is the process of checking your code for potential errors, stylistic issues, and adherence to coding standards. It helps ensure that your code is clean, consistent, and free from common mistakes.</p>
@@ -306,12 +325,8 @@ import PhysLean.Meta.Informal.Basic
 <div style="background-color: #ffffff; border: 2px solid #cc4e00; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #cc4e00; margin-top: 0;">Linting Locally</h2>
     <p>You can also check your code locally using the following commands:</p>
-    <pre style="background-color: #f7f7f7; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 14px; line-height: 1.5; border: 1px solid #ddd;">
-        <code class="language-bash" data-trim data-noescape>
-lake exe lint_all
-./scripts/lint-style.sh
-        </code>
-    </pre>
+<pre><code class="language-bash">lake exe lint_all
+./scripts/lint-style.sh</code></pre>
     <p>Ensuring these commands do not bring up errors helps maintain the quality of PhysLean!</p>
 </div>
 
@@ -320,7 +335,7 @@ lake exe lint_all
 <!----------------------------------->
 <!----------------------------------->
 <!----------------------------------->
-<h1>Making a pull-request</h1>
+<h1 id="making-a-pull-request">Making a pull-request</h1>
 <div
     style="background-color: #f8f9fa; border: 2px solid #6c757d; border-radius: 8px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <h2 style="color: #6c757d; margin-top: 0;">Things to bear in mind:</h2>
@@ -350,7 +365,3 @@ lake exe lint_all
         <li>Open a pull request from your branch to the main branch.</li>
     </ul>
 </div>
-
-<h1></h1>
-
-

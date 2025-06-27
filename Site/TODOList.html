@@ -3,9 +3,21 @@ layout: default
 ---
 <h1>TODO list</h1>
 
-This file is created automatically using `TODO ...` commands within PhysLean.
-Feel free to tackle any of the items here.
-
+This TODO list is automatically created from the Lean files. It contains a number of 
+different types of TODO items: 
+<!-- List of different types of TODO items. -->
+<ul>
+<li><p href="#" class="badge badge-primary" style="background-color: rgba(65, 105, 225, 0.1);color: #1e40af;">Informal
+  definition</p> Corresponds to a definition given as an English string which needs formalizing.</li>
+<li><p class="badge badge-primary" style="background-color: rgba(255, 165, 0, 0.1);color: #FF8C00;">Informal Lemma</p> Corresponds to a lemma given as an 
+  English string which needs formalizing.</li>
+<li><p class="badge badge-primary" style="background-color: rgba(173, 216, 230, 0.2); color: #4682B4;">Semiformal result</p> 
+  Corresponds to a result which the declaration of the result is formalized, but the proof or definition itself is not. </li>
+<li><p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Sorryful result</p>
+  Corresponds to a result containing `sorry`. <b>These are the easiest place to start.</b></li>
+<li><p class="badge badge-primary" style="background-color: rgba(0, 128, 128, 0.1);color: #008080;">TODO Item</p> 
+  Corresponds to a general TODO item.</li>
+</ul>
 {% for cat in site.data.TODO.Category %}
 
 <h3>{{ cat.name }} {{ cat.emoji }}</h3>
@@ -18,6 +30,7 @@ Feel free to tackle any of the items here.
     <button onclick="filterItems('informalLemma', '{{ cat.name }}')" class="filter-btn" data-cat="{{ cat.name }}">Informal Lemmas</button>
     <button onclick="filterItems('semiformalResult', '{{ cat.name }}')" class="filter-btn" data-cat="{{ cat.name }}">Semiformal Results</button>
     <button onclick="filterItems('todoITEM', '{{ cat.name }}')" class="filter-btn" data-cat="{{ cat.name }}">TODO Items</button>
+    <button onclick="filterItems('sorryfulResult', '{{ cat.name }}')" class="filter-btn" data-cat="{{ cat.name }}">Sorryful results</button>
   </div>
 
   {% for entry in site.data.TODO.TODOItem %}
@@ -26,6 +39,7 @@ Feel free to tackle any of the items here.
                data-is-informal-def="{{ entry.isInformalDef }}" 
                data-is-informal-lemma ="{{ entry.isInformalLemma }}"
                data-is-semi-formal-result="{{ entry.isSemiFormalResult }}"
+               data-is-sorryful-result="{{ entry.isSorryfulResult }}"
                data-category="{{ cat.name }}">
             <div class="d-flex w-100 justify-content-between">
               {% if entry.isInformalDef == true %}
@@ -37,7 +51,11 @@ Feel free to tackle any of the items here.
               {% if entry.isSemiFormalResult == true %}
               <p class="badge badge-primary" style="background-color: rgba(173, 216, 230, 0.2); color: #4682B4;">Semiformal result</p>  ({{ entry.name }})
               {% else %}
+              {% if entry.isSorryfulResult == true %}
+              <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Sorryful result</p> (file : {{ entry.name }})
+              {%else%}
               <p class="badge badge-primary" style="background-color: rgba(0, 128, 128, 0.1);color: #008080;">TODO Item</p>  (file : {{ entry.name }})
+              {% endif %}
               {% endif %}
               {% endif %}
               {% endif %}
@@ -50,14 +68,18 @@ Feel free to tackle any of the items here.
           <!-- Copy tag buttons. -->
                 {% if entry.isInformalDef == true %}
                 <button class="badge badge-primary" onclick="copyToClipboard('[informal_def ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
-                {% else %}
+                {% else %} 
                 {% if entry.isInformalLemma == true %}
                 <button class="badge badge-primary" onclick="copyToClipboard('[informal_lemma ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
                 {% else %}
                 {% if entry.isSemiFormalResult == true %}
                 <button class="badge badge-primary" onclick="copyToClipboard('[semiformal_result ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
                 {% else %}
+                {% if entry.isSorryfulResult == true %}
+                <button class="badge badge-primary"  onclick="copyToClipboard('[sorryful result ({{ entry.tag }}): {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
+                {% else %}
                 <button class="badge badge-primary" onclick="copyToClipboard('[TODO ({{ entry.tag }}): file {{ entry.name }}](https://physlean.com/TODOList#{{ entry.tag }})')" style="background-color: rgba(60, 179, 113, 0.1); color: #3CB371;">Copy Tag</button>
+                {% endif %}
                 {% endif %}
                 {% endif %}
                 {% endif %}
@@ -78,6 +100,7 @@ Feel free to tackle any of the items here.
         const isInformalDef = item.getAttribute('data-is-informal-def') === 'true';
         const isInformalLemma = item.getAttribute('data-is-informal-lemma') === 'true';
         const isSemiFormalResult = item.getAttribute('data-is-semi-formal-result') === 'true';
+        const isSorryfulResult = item.getAttribute('data-is-sorryful-result') === 'true';
         if (filterType === 'all') {
           item.style.display = 'block';
         } else if (filterType === 'informalDef' && isInformalDef) {
@@ -85,6 +108,8 @@ Feel free to tackle any of the items here.
         } else if (filterType === 'informalLemma' && isInformalLemma) {
           item.style.display = 'block';
         } else if (filterType === 'semiformalResult' && isSemiFormalResult) {
+          item.style.display = 'block';
+        } else if (filterType === 'sorryfulResult' && isSorryfulResult) {
           item.style.display = 'block';
         }
         

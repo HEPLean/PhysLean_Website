@@ -1,6 +1,9 @@
 # Loogle for PhysLean 
 
-
+To access server remotely use
+```
+ssh root@159.65.55.208
+``` 
 ## Installing the necessary programs
 
 Updating `apt`:
@@ -119,6 +122,36 @@ Which can be checked with
 sudo systemctl status myserver
 ```
 
+## Modifying server.py 
+
+In the file `server.py` the `hostname` and `serverPort` should be set to: 
+```
+hostName = "159.65.55.208"
+serverPort = 8000
+```
+
+## Building PhysLean 
+
+If starting from a new build you will have to build PhysLean. 
+There should be a more permanent fix to this, but for the time being: 
+
+In 
+```
+nano Tests.lean
+```
+add `import PhysLean`. 
+Then run 
+```
+lake build Tests
+```
+
+The local version of loogle can be checked with: 
+
+```
+lake exe loogle SpaceTime
+```
+
+
 ## Updating server 
 
 
@@ -162,4 +195,19 @@ sudo certbot --nginx
 Restarted nginx 
 ```
 sudo systemctl reload nginx
+```
+
+## Fixing 502 error. 
+
+``` 
+sudo systemctl stop myserver
+cd ./loogle/
+export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+lake build
+sudo systemctl daemon-reload;
+sudo systemctl start myserver
+```
+Then check with 
+```
+sudo systemctl status myserver
 ```

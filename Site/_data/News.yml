@@ -1,0 +1,57 @@
+
+
+- date: 11/07/25
+  content: | 
+    [PR641](https://github.com/HEPLean/PhysLean/pull/641)
+    improves documentation within around the 'Space' API.
+
+- date: 11/07/25
+  content: | 
+    [PR640](https://github.com/HEPLean/PhysLean/pull/640)
+    defines the canonical ensemble in statistical mechanics for an infinite space of microstates.
+
+- date: 10/07/25
+  content: | 
+    [PR639](https://github.com/HEPLean/PhysLean/pull/639)
+    proves some properties of canonical ensembles in statistical mechanics, with 
+    a finite space of microstates. 
+
+
+- date: 09/07/25
+  content: | 
+    [PR634](https://github.com/HEPLean/PhysLean/pull/638)
+    proves the generalized eigenfunctions of the momentum operator in 1d quantum mechanics,
+    are plane waves, and the generalized eigenfunctions of the position operator are Dirac delta functions.
+
+- date: 04/07/25
+  content: | 
+    [PR633](https://github.com/HEPLean/PhysLean/pull/633)
+    adds the momentum operator for 1d quantum mechanical system as an unbounded operator.
+
+- date: 04/07/25
+  content: | 
+    [PR632](https://github.com/HEPLean/PhysLean/pull/632)
+    updates index notation within PhysLean making it associated with an instance, 
+    this also updates API around Pauli matrices. 
+
+- date: 01/07/25
+  content: | 
+    [PR629](https://github.com/HEPLean/PhysLean/pull/629)
+    moved PhysLean to the new stable version of lean 4.21.0.
+
+- date: 30/06/25
+  content: | 
+    [PR618](https://github.com/HEPLean/PhysLean/pull/618)
+    adds variational calculus to PhysLean, derives the Euler-Lagrange equation, 
+    and Hamilton's equations of motion.
+
+- date: 27/06/25
+  content: | 
+    [PR627](https://github.com/HEPLean/PhysLean/pull/627)
+    adds the `@[sorryful]` attribute allowing theorems and definitions to be marked as incomplete, 
+    but still included in the project.
+
+- date: 04/06/25
+  content: |
+    Creation of news feed.
+  

@@ -116,7 +116,11 @@ https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/.60import.
 cd ./lean4web
 npm run build
 ```
-
+or 
+``
+cd ./lean4web
+nohup npm run build > /root/out.txt 2>&1 &
+```
 ## cron job 
 
 To see the cron job: 

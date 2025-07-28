@@ -197,7 +197,7 @@ Restarted nginx
 sudo systemctl reload nginx
 ```
 
-## Fixing 502 error. 
+## Fixing 502 or 504 error. 
 
 ``` 
 sudo systemctl stop myserver

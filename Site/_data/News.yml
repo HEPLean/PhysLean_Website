@@ -1,5 +1,62 @@
 
 
+- date: 25/07/25
+  content: | 
+    [PR659](https://github.com/HEPLean/PhysLean/pull/659)
+    proves results related to the expotential map for the Lorentz group. 
+
+- date: 23/07/25
+  content: | 
+    [PR656](https://github.com/HEPLean/PhysLean/pull/656)
+    proves properties of the electric field of a point charge in 1d. 
+
+- date: 22/07/25
+  content: | 
+    [PR604](https://github.com/HEPLean/PhysLean/pull/604)
+    improves the API around and proves results related to the classical harmonic oscillator.
+
+- date: 22/07/25
+  content: | 
+    [PR654](https://github.com/HEPLean/PhysLean/pull/654)
+    adds derivatives of distributions to PhysLean. 
+
+- date: 21/07/25
+  content: | 
+    [PR653](https://github.com/HEPLean/PhysLean/pull/653)
+    adds a constructor of distributions to PhysLean based on boundedness, making it easier 
+    for physicists to define distributions. 
+
+- date: 17/07/25
+  content: | 
+    [PR651](https://github.com/HEPLean/PhysLean/pull/651)
+    generalizes charges in the SU(5) GUT model in F-theory (part of string theory). 
+
+- date: 17/07/25
+  content: | 
+    updates to the website, including project ideas and better navigation.
+
+- date: 15/07/25
+  content: | 
+    [PR648](https://github.com/HEPLean/PhysLean/pull/648)
+    starts to improve the API around `Space` in PhysLean, as a gateway into the project.
+
+- date: 15/07/25
+  content: | 
+    [PR645](https://github.com/HEPLean/PhysLean/pull/645)
+    adds the `@[pseudo]` attribute to theorems and definitions, marking results which 
+    depend transitively on the `native_decide` tactic, which is fast, but less trustworthy.
+
+- date: 13/07/25
+  content: | 
+    [PR644](https://github.com/HEPLean/PhysLean/pull/644)
+    starts API around distributions to PhysLean, allowing phycisists to work with 
+    e.g. diract delta functions in the same way as they would in a physics textbook.
+
+- date: 12/07/25
+  content: | 
+    [PR643](https://github.com/HEPLean/PhysLean/pull/643)
+    removes all universes from PhysLean, simplifying the codebase.  
+
 - date: 11/07/25
   content: | 
     [PR641](https://github.com/HEPLean/PhysLean/pull/641)

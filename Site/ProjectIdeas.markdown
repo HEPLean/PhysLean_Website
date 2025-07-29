@@ -16,7 +16,7 @@ add projects let Joseph Tooby-Smith know,
 or make a pull-request to the PhysLean [website repo](https://github.com/HEPLean/PhysLean_Website).
 
 
-### The reflectionless potiential in quantum mechanics 
+### The reflectionless potential in quantum mechanics 
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 
 Formalize the properties of the [reflectionless potential](https://arxiv.org/pdf/2411.14941) in 
@@ -26,7 +26,7 @@ quantum mechanics, following the formalization of the quantum harmonic oscillato
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 
 PhysLean already contains the tight-binding model for a chain. This project would 
-aim to genearlize that to do the tight-binding model for graphene. A reference 
+aim to generalize that to do the tight-binding model for graphene. A reference 
 can be found [here](https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/3/67057/files/2018/09/graphene_tight-binding_model-1ny95f1.pdf). 
 
 ### Definition of the bosonic and fermionic Hilbert spaces 
@@ -55,7 +55,7 @@ extra Higgs doublet.
 ### Properties of grand unified theory groups 
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 
-Prove the group theoretic properties of the grand-unified theories: SU(5), Spin(1) and Pati-Salam, 
+Prove the group theoretic properties of the grand-unified theories: SU(5), Spin(10) and Pati-Salam, 
 as they appear in [this note](https://math.ucr.edu/home/baez/guts.pdf).
 Some of these results appear on the [todo list](/TODOList).
 

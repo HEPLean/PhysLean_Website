@@ -36,6 +36,15 @@ Define the Hilbert space of a single bosonic and a single fermionic particle. Th
 can be found in these [note](https://souravchatterjee.su.domains/qft-lectures-combined.pdf#page23). 
 Part of this will involve defining the Lorentz-invariant measure and the mass-shell manifold. 
 
+### Basic properties of cosmology 
+<p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
+
+Within PhysLean there are currently some informal results related to the FLRW metric,
+these appear in [this](https://github.com/HEPLean/PhysLean/blob/master/PhysLean/Cosmology/FLRW/Basic.lean) file. 
+The aim of this project would be to formalize into Lean those results, and expand upon them. 
+See a related discussion [here](https://leanprover.zulipchat.com/#narrow/channel/479953-PhysLean/topic/Cosmology.20Project.20and.20dependencies/with/512468525).
+
+
 ### Quantum particle on a ring 
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 

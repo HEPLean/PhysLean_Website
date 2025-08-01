@@ -23,10 +23,10 @@
 
 Lean is a computer programming language in a class of languages 
 called interactive theorem provers (ITP). In an ITP one can write down mathematical definitions, 
-theorems and proves, and the ITP will ensure mathematically correctness and consistency of 
+theorems and proofs, and the ITP will ensure mathematical correctness and consistency of 
 those things.  It does this using a mathematical foundation called type theory. 
 
-Lean is increasingly been used by AI companies to reason about, and prove mathematical theorems. 
+Lean is increasingly being used by AI companies to reason about, and prove mathematical theorems. 
 
 # 2. Mission of PhysLean
 
@@ -41,8 +41,8 @@ akin to Mathlib for mathematics,
 with both the Lean and physics communities behind it and a potential formal collaboration.
 
 **Detailed Vision**:
-- A comprehensive repository for containing fundamental definitions, theorems, and calculations from physics.
-- A interface between experimental data, simulations, and formal theoretical frameworks.
+- A comprehensive repository containing fundamental definitions, theorems, and calculations from physics.
+- An interface between experimental data, simulations, and formal theoretical frameworks.
 - Extensive, physics-focused documentation to support adoption.
 - Accessibility for physicists at all levels, including and especially to those new to formal methods.
 - An intuitive set-up that aligns with the way physicists think and work.
@@ -78,7 +78,7 @@ We foresee the *industrial* beneficiaries of PhysLean including:
 - Companies with an interest in artificial intelligence and its use in reasoning. 
 - Companies with an interest in proving correctness of theory behind physical processes.  
 
-# 7. Benefits of a monolothic libary 
+# 7. Benefits of a monolithic library 
 
 PhysLean is a monolithic library for physics, similar to how Mathlib serves mathematics. It aims to cover the entire field of physics within a single, unified framework. Here are some key motivations for adopting a monolithic approach:
 - **Prevents duplication of work**: A single, comprehensive library ensures that contributors don’t waste effort reinventing the wheel.

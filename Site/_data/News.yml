@@ -1,5 +1,46 @@
 
 
+## end of week 
+## Summary of this week in PhysLean: 
+## Progress has being made on the API around units following a conversation on the PhysLean zulip. 
+## The first steps have been made towards the reflectionless potential in quantum mechanics. 
+## New results related to the exponential map of the Lorentz group.
+- date: 01/08/25
+  content: | 
+    [PR677](https://github.com/HEPLean/PhysLean/pull/677)
+    adds energy and pressure units to PhysLean.
+
+- date: 01/08/25
+  content: | 
+    [PR672](https://github.com/HEPLean/PhysLean/pull/672)
+    proves more properties related to the expotential map of the Lorentz group.
+
+- date: 31/07/25
+  content: | 
+    [PR674](https://github.com/HEPLean/PhysLean/pull/674)
+    starts work on the reflectionless potential in quantum mechanics.
+
+- date: 30/07/25
+  content: | 
+    [PR668](https://github.com/HEPLean/PhysLean/pull/668)
+    along with others, adds units for length, time, mass, charge and temperature to PhysLean.
+
+- date: 28/07/25
+  content: | 
+    [PR666](https://github.com/HEPLean/PhysLean/pull/666)
+    Improves documentation around the momentum.
+
+- date: 28/07/25
+  content: | 
+    [PR665](https://github.com/HEPLean/PhysLean/pull/665)
+    Improves documentation around the Temperature.
+
+- date: 28/07/25
+  content: | 
+    [PR660](https://github.com/HEPLean/PhysLean/pull/660)
+    Adds the manifold corresponding to time and related documentation.
+
+# Start of new week
 - date: 25/07/25
   content: | 
     [PR659](https://github.com/HEPLean/PhysLean/pull/659)

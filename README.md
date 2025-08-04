@@ -11,7 +11,8 @@ The PhysLean website is made using [Jekyll](https://jekyllrb.com) and is generat
 The installation instructions for jekyll can be found [here](https://jekyllrb.com/docs/installation/#requirements).
 
 Once jekyll is installed:
-- navigate your terminal to the `./Site` directory of PhysLean using e.g. `cd ./Site`.
+- Clone this repo
+- navigate your terminal to the `./Site` directory of your clone using e.g. `cd ./Site`.
 - Run `bundle exec jekyll serve`
 - Open `http://localhost:4000` in your web browser.
 

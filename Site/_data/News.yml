@@ -1,5 +1,54 @@
 
 
+
+
+## end of week 
+## (Delayed) summary of this week in PhysLean:
+## Discussions on Zulip about documentation and on-boarding. 
+## Improvements the issue tracker around bumps. 
+## Better API for Time, and properties of tanh for QM.
+
+- date: 15/08/25
+  content: | 
+    [PR689](https://github.com/HEPLean/PhysLean/pull/694)
+    Added properties of tanh needed for the reflectionless potential in quantum mechanics.
+
+- date: 14/08/25
+  content: | 
+    [PR690](https://github.com/HEPLean/PhysLean/pull/690)
+    Improvements to the issue tracker for bumps of PhysLean versions.
+
+- date: 13/08/25
+  content: | 
+    [PR689](https://github.com/HEPLean/PhysLean/pull/689)
+    Improvements to the API around the type corresponding to Time.
+## end of week 
+## Summary of this week in PhysLean:
+## Improvements to the API around finite-dimensional quantum systems, and charges in string theory.
+## Continutation of work on the reflectionless potential in quantum mechanics, including 
+## the definition of the creation and annihilation operators.
+## Prove of the fundamental theorem of variational calculus.
+## Propsal for the formulation of teams with specific roles, on the PhysLean zulip.
+- date: 06/08/25
+  content: | 
+    [PR683](https://github.com/HEPLean/PhysLean/pull/683)
+    improves efficiency of the API around charges in string theory.
+
+- date: 05/08/25
+  content: | 
+    [PR682](https://github.com/HEPLean/PhysLean/pull/682)
+    improves the API around finite-dimensional quantum systems.
+
+- date: 04/08/25
+  content: | 
+    [PR680](https://github.com/HEPLean/PhysLean/pull/680)
+    adds the creation and annihilation operators for quantum reflectionless potential.
+
+- date: 02/08/25
+  content: | 
+    [PR679](https://github.com/HEPLean/PhysLean/pull/679)
+    proves the fundamental theorem of variational calculus. 
+
 ## end of week 
 ## Summary of this week in PhysLean: 
 ## Progress has being made on the API around units following a conversation on the PhysLean zulip. 

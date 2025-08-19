@@ -35,3 +35,19 @@ sudo systemctl status dashboard
 ```
 sudo ufw allow 8097
 ```
+
+## Restarting 
+``` 
+sudo systemctl stop dashboard;
+sudo systemctl daemon-reload;
+sudo systemctl start dashboard;
+```
+Then check with 
+```
+sudo systemctl status dashboard
+```
+
+Or as one command 
+```
+sudo systemctl stop dashboard; sudo systemctl daemon-reload; sudo systemctl start dashboard; sudo systemctl status dashboard
+```

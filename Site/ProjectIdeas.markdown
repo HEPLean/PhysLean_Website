@@ -15,13 +15,20 @@ from easiest to hardest. If you would like to 'claim' one of these projects or
 add projects let Joseph Tooby-Smith know, 
 or make a pull-request to the PhysLean [website repo](https://github.com/HEPLean/PhysLean_Website).
 
+### Classical mechanics of a pendulum 
+<p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
+
+Similar to the current formalization of the classical harmonic oscillator, this project corresponds to 
+the formalization of pendulum. The Wikipedia page [here](https://en.wikipedia.org/wiki/Pendulum_(mechanics)) has more 
+details. 
+
 ### Planck’s theory of blackbody radiation
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 
 Formalize Planck's law (see [here](https://en.wikipedia.org/wiki/Planck%27s_law#The_law)) for 
 blackbody radiation, and derive Wien's displacement law (see [here](https://en.wikipedia.org/wiki/Wien%27s_displacement_law#Derivation_from_Planck's_law)).
 
-### Binary star system 
+### Binary star system 
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 
 Formalize the solution to a system of binary stars, see e.g. [this](https://farside.ph.utexas.edu/teaching/celestial/Celestial/node38.html).

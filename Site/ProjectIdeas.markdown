@@ -68,6 +68,13 @@ these appear in [this](https://github.com/HEPLean/PhysLean/blob/master/PhysLean/
 The aim of this project would be to formalize into Lean those results, and expand upon them. 
 See a related discussion [here](https://leanprover.zulipchat.com/#narrow/channel/479953-PhysLean/topic/Cosmology.20Project.20and.20dependencies/with/512468525).
 
+### Laplace's tidal equations 
+<p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
+
+Write down and prove the basic properties of Laplace's tidal equations, see e.g. 
+[here](https://www.whoi.edu/cms/files/lecture03_21374.pdf). One could go further, and 
+provide a derivation of these equations.
+
 ### Boltzmann equation 
 <p class="badge badge-primary" style="background-color: rgba(129, 22, 67, 0.1);color: #690080;">Available</p> 
 

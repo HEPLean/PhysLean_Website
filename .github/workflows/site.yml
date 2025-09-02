@@ -55,10 +55,10 @@ jobs:
         
         - name : Move the data sets
           run: |
-            if [ -d "Site/_data" ]; then
-              rm -rf Site/_data
-            fi
-            mv doc-artifact/_data Site/_data
+            # Create _data directory if it doesn't exist
+            mkdir -p Site/_data
+            # Copy all files from doc-artifact/_data to Site/_data (preserving existing files)
+            cp -a doc-artifact/_data/. Site/_data/
         
         - name : Move the stats file 
           run : mv doc-artifact/Stats.html Site/Stats.html   

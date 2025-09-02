@@ -1,0 +1,56 @@
+
+- title: Vector calculus
+  content: | 
+    Vector calculus on Euclidean space, including vector fields, differential operators, 
+  status: Complete
+  link: https://github.com/HEPLean/PhysLean/blob/master/PhysLean/SpaceAndTime/Space/VectorIdentities.lean 
+
+- title: Index notation
+  content: | 
+    To allow the user to work with index notation and Einstien summation convention. 
+  status: NeedsWork 
+  link: https://github.com/HEPLean/PhysLean/tree/master/PhysLean/Relativity/Tensors
+
+- title: Units
+  content: | 
+    To keep track of physical units, and ensure quantities are dimensionally correct.  
+  status: NeedsWork 
+  link: https://github.com/HEPLean/PhysLean/tree/master/PhysLean/Units
+
+- title: Finite dimensional quantum systems
+  content: | 
+    Notation and basic theorems for quantum mechanical systems with a finite-dimensional Hilbert spaces. 
+  status: NeedsWork 
+  link: https://github.com/HEPLean/PhysLean/tree/master/PhysLean/QuantumMechanics/FiniteTarget
+
+- title: Quantum operators
+  content: | 
+    Ease of creating and maniplating quantum operators on Hilbert spaces defined 
+    on Space. For example, defining operators as linear maps between Schwartz spaces.
+  status: NeedsWork 
+  link: https://github.com/HEPLean/PhysLean/tree/master/PhysLean/QuantumMechanics
+
+- title: Distributions
+  content: | 
+    Easy of use of tempered distributions for physicists, including Dirac delta functions, 
+    and the condiseration of bounded functions as distributions.
+  status: NeedsWork 
+  link: https://github.com/HEPLean/PhysLean/tree/master/PhysLean/Mathematics/Distribution
+
+- title: Spherical coordinates
+  content: | 
+    Ease of use of spherical coordinates in 3d Euclidean space, including differentiation 
+    and integration in spherical coordinates.
+  status: StartedSoon 
+
+- title: Hamiltonian mechanics
+  content: | 
+    Ease of going too and from Lagrangian and Hamiltonian mechanics, 
+    and defining a classical system by its Hamiltonian.
+  status: StartedSoon 
+
+- title: Feynman diagrams
+  content: | 
+    Ease of creating and reasoning about Feynman diagrams in quantum field theory, 
+    along with graphical visualizations.
+  status: NotStarted 
